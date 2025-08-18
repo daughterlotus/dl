@@ -1,7 +1,7 @@
 html {
  height: 100%;
  width: 100%;
- background-color: #5591aa;
+ background-color: hsl(73, 41%, 15%);
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
@@ -30,10 +30,12 @@ body {
 }
 
 .header {
+ display:flex;
  justify-content: center;
  text-align: center;
  padding: 2rem 5%;
  margin: 1rem;
+ align-items: center;
 }
 
 .header h1 {
