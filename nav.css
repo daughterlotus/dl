@@ -10,7 +10,7 @@ html {
 }
 
 .pagelinks li {
- margin: 0 12px;
+ margin: 0 8px;
 }
 
 @media screen and (max-width: 953px) {
@@ -34,4 +34,26 @@ html {
 
 .pagelinks a:hover {
  color: gray;
+}
+
+#screen-mobile-nav {
+ position:fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 10px;
+ background-image: linear-gradient(to bottom, #000000, #5591aa);
+ z-index: 9999;
+ text-align: center;
+}
+
+#screen-mobile-nav a {
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ padding: 2rem 4rem;
+ display: block;
+ font-family: sans-serif;
 }
