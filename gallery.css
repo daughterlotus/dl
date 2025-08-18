@@ -15,9 +15,9 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
-#photos {background-color:#0D6473;}
+#photos {background-color:hsl(73, 41%, 15%);}
 #posters {background-color: #0B363E;}
-#videos {background-color: #080808;}
+#videos {background-color:hsl(73, 41%, 55%);}
 
 * {
  margin: 0;
@@ -34,7 +34,6 @@ body {
  text-align: center;
  padding: 2rem 5%;
  margin: 1rem;
- margin-bottom: 0;
 }
 
 .header h1 {

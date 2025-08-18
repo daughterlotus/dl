@@ -10,6 +10,7 @@ html {
  height: 100%;
  margin: 0;
  padding: 0;
+ background-image: linear-gradient(to bottom, #000000, #5591aa);
 }
 
 body {

@@ -9,31 +9,52 @@ html {
   scrollbar-width: none;  /* Firefox */
 }
 
+@font-face {
+ font-family: Neuton-Bold;
+ font-display: block;
+ src: url(fonts/Neuton-Bold.ttf);
+}
+
 .pagelinks li {
  margin: 0 8px;
 }
 
-@media screen and (max-width: 953px) {
+.seclinks li {
+ margin: 0 8px;
+}
+
+@media screen and (max-width: 900px) {
  .desktop-menubar {display:none;}
  .mobile-menubar {display:flex;}
 }
 
-@media screen and (min-width: 954px) {
+@media screen and (min-width: 901px) {
  .desktop-menubar {display:flex;}
  .mobile-menubar {display:none;}
 }
 
 .pagelinks a {
  text-decoration: none;
- color: white;
- font-size:20px;
+ color: hsl(201, 45%, 77%);
+ font-size:22px;
  transition-duration: 0.2s;
- font-family: sans-serif;
- font-weight: bold;
+ font-family: "Neuton-Bold", serif;
 }
 
 .pagelinks a:hover {
- color: gray;
+ color: white;
+}
+
+.pagelinks {
+ align-items: center;
+}
+
+.seclinks {
+ position: absolute;
+ top: 35%;
+ display:flex;
+ align-self:center;
+ justify-self: center;
 }
 
 #screen-mobile-nav {
@@ -43,7 +64,6 @@ html {
  bottom: 0;
  left: 0;
  padding: 10px;
- background-image: linear-gradient(to bottom, #000000, #5591aa);
  z-index: 9999;
  text-align: center;
 }
@@ -55,5 +75,14 @@ html {
  text-align: center;
  padding: 2rem 4rem;
  display: block;
- font-family: sans-serif;
+ font-family: "Neuton-Bold", serif;
+}
+
+.footer {
+ display: flex;
+ padding: 2rem 0;
+ background-color: black;
+ position: relative;
+ align-items: center;
+ justify-content: center;
 }
