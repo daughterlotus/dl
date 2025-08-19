@@ -17,6 +17,8 @@ html {
 
 .pagelinks li {
  margin: 0 8px;
+ align-self:center;
+ padding-bottom: 5px;
 }
 
 .seclinks li {
@@ -35,10 +37,12 @@ html {
 
 .pagelinks a {
  text-decoration: none;
- color: hsl(201, 45%, 77%);
+ color: lightblue;
+ text-align:center;
  font-size:22px;
  transition-duration: 0.2s;
  font-family: "Neuton-Bold", serif;
+ align-self:center;
 }
 
 .pagelinks a:hover {
@@ -47,6 +51,7 @@ html {
 
 .pagelinks {
  align-items: center;
+ display:flex;
 }
 
 .seclinks {

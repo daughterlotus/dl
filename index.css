@@ -6,11 +6,35 @@
  overflow:visible;
 }
 
+@media screen and (max-width: 900px) {
+ #hero {background-image:url(images/DL/3.jpeg);min-height:100vh;background-size:cover;}
+}
+
+@media screen and (min-width: 901px) {
+ #hero {background-image:url(images/indexbg.webp);background-size:100% auto;aspect-ratio:3264/3598;max-width:100%;}
+}
+
+@font-face {
+ font-family: Neuton;
+ font-display: block;
+ src: url(fonts/Neuton-Regular.ttf);
+}
+
+@font-face {
+ font-family: Neuton-Bold;
+ font-display: block;
+ src: url(fonts/Neuton-Bold.ttf);
+}
+
+p, h1 {
+ font-family: "Neuton", serif; 
+}
+
 html {
  height: 100%;
  margin: 0;
  padding: 0;
- background-image: linear-gradient(to bottom, #000000, #5591aa);
+ background-color: #000000;
 }
 
 body {
