@@ -1,0 +1,118 @@
+html {
+ height: 100%;
+ width: 100%;
+ background-color: hsl(73, 41%, 15%);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-origin: content-box;
+ overflow-y: scroll;
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome and the rest */
+}
+
+#album {background-color:hsl(221.54deg, 62.24%, 13.68%);}
+#ep {background-color:hsl(216deg, 70.59%, 7.16%);}
+#single {background-color:hsl(221.54deg, 62.24%, 3.68%);}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Verdana, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+ .musicSocialLinks {width:10rem;}
+}
+
+@media screen and (min-width: 901px) {
+ .musicSocialLinks {width:10rem;}
+}
+
+.header {
+ display:flex;
+ justify-content: center;
+ padding: 2rem 0;
+ margin: 1rem;
+ align-items: center;
+}
+
+.header h1 {
+ font-size: 50px;
+}
+
+.container {
+ padding: 2rem 5%;
+}
+
+.container .image-container {
+ columns: 15rem 3;
+ gap: 1rem;
+}
+
+.container .image-container img {
+ width: 100%;
+ height: auto;
+}
+
+.image-container picture {
+ margin-bottom: 1rem;
+}
+
+.image-container a {
+ text-decoration:none;
+}
+
+.image-container i {
+ color:white;
+ font-family: Neuton-Bold;
+ font-size:24px;
+}
+
+.container .poster-container {
+ columns: 25rem 3;
+ justify-content: start;
+ gap: 1rem;
+}
+
+.container .poster-container img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 1rem;
+}
+
+.container .video-container {
+ columns: 20rem 2;
+ justify-content: start;
+ gap: 1rem;
+}
+
+.container .video-container iframe {
+ display: block;
+ height: auto;
+ width: 100%;
+ margin-bottom: 1rem;
+ aspect-ratio: 16/9;
+}
+
+.musicSocialLinks {
+ margin-top:0.5rem;
+ gap: 1rem;
+ display:grid;
+ grid-template-columns:repeat(auto-fit, minmax(16px, 1fr));
+ column-count:3;
+}
+
+.musicSocialLinks a {
+ width: auto;
+ height: 100%;
+ aspect-ratio: 1/1;
+}
