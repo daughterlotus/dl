@@ -37,12 +37,16 @@ html {
 
 .pagelinks a {
  text-decoration: none;
- color:#f0eedf;
+ color: #0099e0;
  text-align:center;
  font-size:22px;
  transition-duration: 0.2s;
  font-family: "Neuton-Bold", serif;
  align-self:center;
+}
+
+.desktop-menubar img {
+ max-height: 35.98px;
 }
 
 .pagelinks a:hover {
@@ -71,7 +75,17 @@ html {
  padding: 10px;
  z-index: 9999;
  text-align: center;
- background-image: linear-gradient(to bottom, #000000, #5591aa);
+ background-color: #000000;
+}
+
+#screen-mobile-nav ul {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ align-content: center;
+ flex-wrap: wrap;
+ height: 80%;
+ gap:1rem;
 }
 
 #screen-mobile-nav a {
