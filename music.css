@@ -15,6 +15,7 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
+#newRelease {}
 #album {background-color:hsl(221.54deg, 62.24%, 13.68%);}
 #ep {background-color:hsl(216deg, 70.59%, 7.16%);}
 #single {background-color:hsl(221.54deg, 62.24%, 3.68%);}
@@ -29,12 +30,22 @@ body {
  font-family: Verdana, sans-serif;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1001px) {
  .musicSocialLinks {width:10rem;}
+ #newRelease {background-color:#f1eedf;min-height:75vh;display:flex;align-items:flex-end;}
+ #newRelease h1 {font-size:40px;text-align:center;width:100%;}
+ #newRelease h1 {text-align:center;width:100%;}
+ #newRelease .header {justify-content:center;max-width:100%;text-align:center;}
+ .newCover {max-width:100%;}
 }
 
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 1002px) {
  .musicSocialLinks {width:10rem;}
+ #newRelease {background-color:#f1eedf;max-width:100%;min-height:65vh;height:auto;display:flex;align-items:flex-end;}
+ #newRelease .container {display:flex;background-image:url(images/IHateMusicPromo2.png);background-repeat:no-repeat;background-size:100% auto;align-items:flex-end;justify-content:flex-end;aspect-ratio:1920/720;}
+ #newRelease .header {justify-content:flex-end;max-width:33%;text-align:right}
+ .newCover {max-width:33%;margin-left:1rem;}
+ #newRelease h1 {font-size:60px;}
 }
 
 .header {
