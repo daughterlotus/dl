@@ -84,10 +84,28 @@ html {
 }
 
 .footer {
- display: flex;
- padding: 2rem 0;
+ padding: 2rem;
  background-color: black;
- position: relative;
- align-items: center;
+ width:100%;
+}
+
+.footerSocialBar {
+ max-width: 256px;
+ justify-self: center;
  justify-content: center;
+ align-items: center;
+ list-style-type: none;
+}
+
+.footerSocialBar li {
+ aspect-ratio: 1/1;
+ max-height: 32px;
+ margin: 0.5rem;
+ margin-top: 1rem;
+}
+
+.footerSocialBar img {
+ height: auto;
+ width: 100%;
+ aspect-ratio: 1/1;
 }
