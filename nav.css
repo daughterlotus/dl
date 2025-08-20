@@ -114,7 +114,7 @@ html {
 
 .footerSocialBar li {
  aspect-ratio: 1/1;
- max-height: 32px;
+ max-height: 30px;
  margin: 0.5rem;
  margin-top: 1rem;
 }
