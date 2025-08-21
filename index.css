@@ -3,7 +3,7 @@
  padding: 0;
  box-sizing: border-box;
  clear: both;
- overflow:visible;
+ overflow: visible;
 }
 
 @media screen and (max-width: 900px) {

@@ -42,7 +42,7 @@ body {
 @media screen and (min-width: 1002px) {
  .musicSocialLinks {width:10rem;}
  #newRelease {background-color:#f1eedf;max-width:100%;min-height:65vh;height:auto;display:flex;align-items:flex-end;}
- #newRelease .container {display:flex;background-image:url(images/IHateMusicPromo2.png);background-repeat:no-repeat;background-size:100% auto;align-items:flex-end;justify-content:flex-end;aspect-ratio:1920/720;}
+ #newRelease .container {display:flex;background-image:url(images/IHateMusicPromo2.webp);background-repeat:no-repeat;background-size:100% auto;align-items:flex-end;justify-content:flex-end;aspect-ratio:1920/720;}
  #newRelease .header {justify-content:flex-end;max-width:33%;text-align:right}
  .newCover {max-width:33%;margin-left:1rem;}
  #newRelease h1 {font-size:60px;}
