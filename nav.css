@@ -11,7 +11,7 @@ html {
 
 @font-face {
  font-family: Neuton-Bold;
- font-display: block;
+ font-display: swap;
  src: url(fonts/Neuton-Bold.ttf);
 }
 
