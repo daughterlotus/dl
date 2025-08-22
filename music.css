@@ -31,21 +31,31 @@ body {
 }
 
 @media screen and (max-width: 1001px) {
- .musicSocialLinks {width:10rem;}
+ .musicSocialLinks {width:8rem;}
  #newRelease {background-color:#f1eedf;min-height:75vh;display:flex;align-items:flex-end;}
  #newRelease h1 {font-size:40px;text-align:center;width:100%;}
  #newRelease h1 {text-align:center;width:100%;}
  #newRelease .header {justify-content:center;max-width:100%;text-align:center;}
- .newCover {max-width:100%;}
+ .newCover {max-width:100%;overflow:hidden;}
+ .image-container i {font-size:1.5em;}
+ #single .image-container i {font-size: 1em;}
+ #album .image-container {grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+ #ep .image-container {grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+ #single .image-container {grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));}
 }
 
 @media screen and (min-width: 1002px) {
- .musicSocialLinks {width:10rem;}
+ .musicSocialLinks {width:9rem;}
  #newRelease {background-color:#f1eedf;max-width:100%;min-height:65vh;height:auto;display:flex;align-items:flex-end;}
  #newRelease .container {display:flex;background-image:url(images/IHateMusicPromo2.webp);background-repeat:no-repeat;background-size:100% auto;align-items:flex-end;justify-content:flex-end;aspect-ratio:1920/720;}
  #newRelease .header {justify-content:flex-end;max-width:33%;text-align:right}
  .newCover {max-width:33%;margin-left:1rem;}
  #newRelease h1 {font-size:60px;}
+ .image-container i {font-size:1.75em;}
+ #single .image-container i {font-size: 1.5em;}
+ #album .image-container {grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+ #ep .image-container {grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));}
+ #single .image-container {grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));}
 }
 
 .header {
@@ -85,7 +95,6 @@ body {
 .image-container i {
  color:white;
  font-family: Neuton-Bold;
- font-size:24px;
 }
 
 .container .poster-container {
