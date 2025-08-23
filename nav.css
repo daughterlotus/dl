@@ -35,6 +35,10 @@ html {
  .mobile-menubar {display:none;}
 }
 
+.mobile-menubar #logo {
+ aspect-ratio: 1000/132;
+}
+
 .pagelinks a {
  text-decoration: none;
  color: #0099e0;

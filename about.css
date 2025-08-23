@@ -15,15 +15,7 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
-@media screen and (max-width:400px) {
- .aboutbg {background-image:url(responsive/7-400w.webp);}
-}
-
-@media screen and (min-width:401px) {
- .aboutbg {background-image:url(responsive/7-600w.webp);}
-}
-
-@media screen and (min-width:601px) {
+@media screen and (max-width:800px) {
  .aboutbg {background-image:url(responsive/7-800w.webp);}
 }
 

@@ -6,11 +6,7 @@
  overflow: visible;
 }
 
-@media screen and (max-width:400px) {
- #hero {background-image:url(responsive/3-800w.webp);}
-}
-
-@media screen and (min-width:401px) and (max-width:600px) {
+@media screen and (max-width:600px) {
  #hero {background-image:url(responsive/3-1000w.webp);}
 }
 
