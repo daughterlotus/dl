@@ -6,8 +6,24 @@
  overflow: visible;
 }
 
+@media screen and (max-width:400px) {
+ #hero {background-image:url(responsive/3-800w.webp);}
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+ #hero {background-image:url(responsive/3-1000w.webp);}
+}
+
+@media screen and (min-width:601px) and (max-width:800px) {
+ #hero {background-image:url(responsive/3-1200w.webp);}
+}
+
+@media screen and (min-width:801px) and (max-width:900px) {
+ #hero {background-image:url(responsive/3-1600w.webp);}
+}
+
 @media screen and (max-width: 900px) {
- #hero {background-image:url(images/DL/3.webp);min-height:100vh;background-size:cover;}
+ #hero {min-height:100vh;background-size:cover;}
  .hero-desktop {display:none;}
  #mobile-promo {display:flex;}
 }

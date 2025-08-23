@@ -1,0 +1,111 @@
+html {
+ height: 100%;
+ width: 100%;
+ background-color: hsl(220.91deg, 62.86%, 13.73%);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-origin: content-box;
+ overflow-y: scroll;
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome and the rest */
+}
+
+@media screen and (max-width:400px) {
+ .aboutbg {background-image:url(responsive/7-400w.webp);}
+}
+
+@media screen and (min-width:401px) {
+ .aboutbg {background-image:url(responsive/7-600w.webp);}
+}
+
+@media screen and (min-width:601px) {
+ .aboutbg {background-image:url(responsive/7-800w.webp);}
+}
+
+@media screen and (min-width:801px) {
+ .aboutbg {background-image:url(responsive/7-1000w.webp);}
+}
+
+@media screen and (min-width:1001px) {
+ .aboutbg {background-image:url(responsive/7-1200w.webp);}
+}
+
+@media screen and (min-width:1201px) {
+ .aboutbg {background-image:url(responsive/7-1600w.webp);}
+}
+
+@media screen and (min-width:1601px) {
+ .aboutbg {background-image:url(responsive/7-2000w.webp);}
+}
+
+@media screen and (min-width:2001px) {
+ .aboutbg {background-image:url(images/DL/7.webp);}
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Verdana, sans-serif;
+}
+
+.header {
+ display:flex;
+ justify-content: center;
+ padding: 2rem 0;
+ margin: 1rem;
+ align-items: center;
+}
+
+.header h1 {
+ font-size: 50px;
+}
+
+.container {
+ padding: 2rem 5%;
+}
+
+.container .image-container {
+ columns: 15rem 3;
+ gap: 1rem;
+}
+
+.container .image-container img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 1rem;
+}
+
+.container .poster-container {
+ columns: 25rem 3;
+ justify-content: start;
+ gap: 1rem;
+}
+
+.container .poster-container img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 1rem;
+}
+
+.container .video-container {
+ columns: 20rem 2;
+ justify-content: start;
+ gap: 1rem;
+}
+
+.container .video-container iframe {
+ display: block;
+ height: auto;
+ width: 100%;
+ margin-bottom: 1rem;
+ aspect-ratio: 16/9;
+}
