@@ -3,7 +3,7 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://daughterlotus.com</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2025-08-23</lastmod>
     <image:image>
       <image:loc>https://daughterlotus.com/images/DL/3.webp</image:loc>
     </image:image>
@@ -13,14 +13,14 @@
   </url>
   <url>
     <loc>https://daughterlotus.com/about</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2025-08-23</lastmod>
     <image:image>
       <image:loc>https://daughterlotus.com/images/DL/7.webp</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://daughterlotus.com/music</loc>
-    <lastmod>2025-08-21</lastmod>
+    <lastmod>2025-08-23</lastmod>
     <image:image>
       <image:loc>https://daughterlotus.com/images/releases/IHATEMUSIC.webp</image:loc>
     </image:image>
@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>https://daughterlotus.com/gallery</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2025-08-23</lastmod>
     <image:image>
       <image:loc>https://daughterlotus.com/images/releases/2.webp</image:loc>
     </image:image>
