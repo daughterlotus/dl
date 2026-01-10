@@ -41,7 +41,7 @@ html {
 
 .pagelinks a {
  text-decoration: none;
- color: #0099e0;
+ color: hsl(170.77deg 51.18% 75.1%);
  text-align:center;
  font-size:22px;
  transition-duration: 0.2s;
@@ -97,7 +97,7 @@ html {
  color: white;
  font-size: 20px;
  text-align: center;
- padding: 2rem 4rem;
+ padding: 2rem 6rem;
  display: block;
  font-family: "Neuton-Bold", serif;
 }
