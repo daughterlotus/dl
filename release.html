@@ -10,7 +10,9 @@
    if (!releaseId) {
     console.error("No release id provided");
    } else {
-    fetch('releases/${releaseId}.json')
+    const jsonPath = `releases/${releaseId}.json`;
+
+    fetch(jsonPath)
      .then(response => {
       if (!response.ok) {
        throw new Error("Release not found");
