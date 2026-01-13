@@ -24,8 +24,8 @@
       document.getElementById("release-title").textContent = data.title;
      })
      .catch(error => {
-      throw new Error("Release not found");
-     })
+      console.error("Error loading release:", error);
+     });
    }
   </script>
   <h1 id="release-title" style="color:black;"></h1>
