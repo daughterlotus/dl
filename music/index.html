@@ -69,7 +69,7 @@
       return response.json();
      })
      .then(data => {
-      console.log("Release data:", data);
+      console.log("release data:", data);
       document.title = data.title + " | Daughter Lotus";
       document.getElementsByClassName("release-title").textContent = data.title;
       const date = data.releaseDate;
