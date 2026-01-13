@@ -22,9 +22,6 @@
      .then(data => {
       console.log("Release data:", data);
       document.getElementById("release-title").textContent = data.title;
-     })
-     .catch(error => {
-      console.error("Release not found");
      });
    }
   </script>
