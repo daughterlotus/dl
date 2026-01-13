@@ -71,17 +71,17 @@
      .then(data => {
       console.log("release data:", data);
       document.title = data.title + " | Daughter Lotus";
-      document.querySelectorAll(".release-title").textContent = data.title;
-      document.querySelectorAll(".release-date").textContent = data.releaseDate;
+      document.querySelector(".release-title").textContent = data.title;
+      document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelectorAll(".release-cover").src = data.coverArt;
       let bgURL = "url(" + data.bgImage + ")";
       document.querySelector(".headerText").style.backgroundImage = bgURL;
-      // document.getElementsByClassName("runtime").textContent = data.releaseLength;
-      // document.getElementById("spotify").href = data.links.spotify;
-      // document.getElementById("appleMusic").href = data.links.appleMusic;
-      // document.getElementById("youtube").href = data.links.youtube;
-      // document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
-      // document.getElementById("bandcamp").href = data.links.bandcamp;
+      document.getElementsByClassName("runtime").textContent = data.releaseLength;
+      document.getElementById("spotify").href = data.links.spotify;
+      document.getElementById("appleMusic").href = data.links.appleMusic;
+      document.getElementById("youtube").href = data.links.youtube;
+      document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
+      document.getElementById("bandcamp").href = data.links.bandcamp;
      })
      .catch(error => {
       console.error("Release not found");
@@ -90,12 +90,12 @@
 
   </script>
   <div class="headerText">
-   <h1 class="release-title"></h1>
-   <h3 class="release-date"></h3>
+   <h1 class="release-title">Title Loading...</h1>
+   <h3 class="release-date">Release Date Loading...</h3>
   </div>
   <div style="display:flex;flex-wrap:wrap;width:100%;gap:1rem;">
    <picture>
-    <img class="release-cover">
+    <img class="release-cover" src="../images/coverArtLoading.png">
    </picture>
    <div class="text-half">
    <div class="tracklist">
@@ -149,8 +149,7 @@
    </div>
    <div style="width:100%;">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Details:</h2>
-    <p style="color:var(--whte);font-size:18px;">Release Date: <span id="release-date"></span>.<br>
-       Total Runtime: <span class="runtime"></span>.<br><br>
+    <p style="color:var(--whte);font-size:18px;">Total Runtime: <span class="runtime"></span>.<br><br>
        <span class="credits">All tracks written, performed, recorded, mixed, and mastered by Daughter Lotus<credits>.</p>
    </div>
   </div>
