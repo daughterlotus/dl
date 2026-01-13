@@ -1,0 +1,61 @@
+{
+  "id": "music-for-posing",
+  "title": "Music for Posing",
+  "artist": "Daughter Lotus",
+  "type": "ep",
+  "releaseDate": "2026-01-02",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/MusicForPosing.jpg",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "pirouette",
+      "length": "3:13"
+    },
+    {
+      "number": 2,
+      "title": "doodle1 (we're almost home)",
+      "length": "0:57"
+    },
+    {
+      "number": 3,
+      "title": "tORSo, or, touchmeTouchMeTOUCHME",
+      "length": "3:17"
+    }
+    {
+      "number": 4,
+      "title": "doodle2 (do you like me?)",
+      "length": "1:50"
+    },
+    {
+      "number": 5,
+      "title": "ADDICTS",
+      "length": "3:00"
+    },
+    {
+      "number": 6,
+      "title": "doodle3 (a tribute to no one in particular)",
+      "length": "0:56"
+    },
+    {
+      "number": 7,
+      "title": "Vigilante",
+      "length": "4:36"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/61dKJIOHT3sBdUlu5R63oK",
+    "appleMusic": "https://music.apple.com/us/album/music-for-posing/1865673671",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mK8XuXcWoCQoHbLYbaGi77U4uwsalDUjI",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/music-for-posing"
+  }
+}

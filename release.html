@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Site developed by Brian M. Dyer-->
+<html lang="en">
+ <head>
+ </head>
+ <body>
+  <script>
+   const params = new URLSearchParams(window.location.search);
+   const releaseId = params.get("id");
+   if (!releaseId) {
+    console.error("No release id provided");
+   } else {
+    const jsonPath = `releases/${releaseId}.json`;
+
+    fetch(jsonPath)
+     .then(response => {
+      if (!response.ok) {
+       throw new Error("Release not found");
+      }
+      return response.json();
+     })
+     .then(data => {
+      console.log("Release data:", data);
+      document.getElementById("release-title").textContent = data.title;
+     })
+     .catch(error => {
+      console.error(error.message);
+     });
+   }
+  </script>
+  <h1 id="release-title" style="color:black;"></h1>
+ </body>
+</html>
