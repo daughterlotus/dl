@@ -12,7 +12,7 @@ html {
 @font-face {
  font-family: Neuton-Bold;
  font-display: swap;
- src: url(fonts/Neuton-Bold.ttf);
+ src: url(../fonts/Neuton-Bold.ttf);
 }
 
 :root {
@@ -67,17 +67,13 @@ picture img {
  width: 100%;
 }
 
-#release-date {
+.headerText #release-date {
  font-size: 24px;
  width: 100%;
 }
 
 #release-cover {
  margin: 1rem;
-}
-
-#release-date {
-
 }
 
 #tracklist {

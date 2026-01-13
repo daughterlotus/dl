@@ -72,10 +72,19 @@
       console.log("Release data:", data);
       document.title = data.title + " | Daughter Lotus";
       document.getElementById("release-title").textContent = data.title;
-      document.getElementById("release-date").textContent = data.releaseDate;
+      const date = data.releaseDate;
+      const optionsLongDate = { year: 'numeric', month: 'long', day: 'numeric' };
+      const formattedLongDate = new Intl.DateTimeFormat('en-US', optionsLongDate).format(date);
+      document.getElementById("release-date").textContent = formattedLongDate;
       document.getElementById("release-cover").src = data.coverArt;
       let bgURL = "url(" + data.bgImage + ")";
       document.getElementsByClassName("headerText").style.backgroundImage = bgURL;
+      document.getElementById("runtime").textContent = data.releaseLength;
+      document.getElementById("spotify").src = data.links.spotify;
+      document.getElementById("appleMusic").href = data.links.appleMusic;
+      document.getElementById("youtube").href = data.links.youtube;
+      document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
+      document.getElementById("bandcamp").href = data.links.bandcamp;
      })
      .catch(error => {
       console.error("Release not found");
@@ -134,17 +143,17 @@
    <div style="width:100%;border-top:2px solid var(--whte);border-bottom:2px solid var(--whte);padding:20px 0;">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Listen:</h2>
     <ul class="listen-bar">
-      <li><a href="https://open.spotify.com/album/61dKJIOHT3sBdUlu5R63oK" target="_blank" aria-label=""><img src="../images/social/spoofywhite.svg" width="37.5" height="37.5"></a></li>
-      <li><a href="https://music.apple.com/us/album/music-for-posing/1865673671" target="_blank" aria-label=""><img src="../images/social/appelwhite.svg" width="37.5" height="37.5"></a></li>
-      <li><a href="https://youtube.com/playlist?list=OLAK5uy_kWQPSyivJ8ABd5bRzGJ1tl42lZJRxzYfk&si=7_nCIIcVFWl9o6ka" target="_blank" aria-label=""><img src="../images/social/yt.white.svg" width="37.5" height="37.5"></a></li>
-      <li><a href="https://music.youtube.com/playlist?list=OLAK5uy_mK8XuXcWoCQoHbLYbaGi77U4uwsalDUjI" target="_blank" aria-label=""><img src="../images/social/ytm.white.svg" width="37.5" height="37.5"></a></li>
-      <li><a href="https://daughterlotus.bandcamp.com/album/music-for-posing" target="_blank" aria-label=""><img src="../images/social/bc.white.svg" width="37.5" height="37.5"></a></li>
+      <li><a id="spotify" target="_blank" aria-label=""><img src="../images/social/spoofywhite.svg" width="37.5" height="37.5"></a></li>
+      <li><a id="appleMusic" target="_blank" aria-label=""><img src="../images/social/appelwhite.svg" width="37.5" height="37.5"></a></li>
+      <li><a id="youtube" target="_blank" aria-label=""><img src="../images/social/yt.white.svg" width="37.5" height="37.5"></a></li>
+      <li><a id="youtubeMusic" target="_blank" aria-label=""><img src="../images/social/ytm.white.svg" width="37.5" height="37.5"></a></li>
+      <li><a id="bandcamp" target="_blank" aria-label=""><img src="../images/social/bc.white.svg" width="37.5" height="37.5"></a></li>
     </ul>
    </div>
    <div style="width:100%;">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Details:</h2>
-    <p style="color:var(--whte);font-size:18px;">Release Date: January 2nd, 2026.<br>
-       Total Runtime: 17 minutes, 42 seconds.<br><br>
+    <p style="color:var(--whte);font-size:18px;">Release Date: <span id="release-date">January 2nd, 2026</span>.<br>
+       Total Runtime: <span id="runtime">17 minutes, 42 seconds</span>.<br><br>
        All tracks written, performed, recorded, mixed, and mastered by Daughter Lotus.</p>
    </div>
   </div>
