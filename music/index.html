@@ -71,10 +71,13 @@
      .then(data => {
       console.log("release data:", data);
       document.title = data.title + " | Daughter Lotus";
+      root.style.setProperty('--lightMain', data.lightMain);
+      root.style.setProperty('--darkMain', data.darkMain);
+      root.style.setProperty('--accent', data.accent);
       document.querySelector(".release-title").textContent = data.title;
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
-      document.querySelector(".runtime").src = data.releaseLength;
+      document.querySelector(".runtime").textContent = data.releaseLength;
       let bgURL = "url(" + data.bgImage + ")";
       document.querySelector(".headerText").style.backgroundImage = bgURL;
       document.getElementsByClassName("runtime").textContent = data.releaseLength;

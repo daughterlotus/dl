@@ -8,6 +8,9 @@
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/personhouse.webp",
   "bgImage": "../images/epsHeader.webp",
+  "lightMain": "#CBD1DD",
+  "darkMain": "#3E4034",
+  "accent": "#CFACF2",
   "description": "Null",
 
   "tracks": [

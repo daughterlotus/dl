@@ -8,6 +8,9 @@
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/MusicForPosing.jpg",
   "bgImage": "../images/MfP004.2.jpg",
+  "lightMain": "#C3EFE9",
+  "darkMain": "#387A78",
+  "accent": "#FEBC3F",
   "description": "Null",
 
   "tracks": [
