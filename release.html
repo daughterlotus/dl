@@ -2,6 +2,7 @@
 <!-- Site developed by Brian M. Dyer-->
 <html lang="en">
  <head>
+  <link rel="canonical" href="https://daughterlotus.com/music/">
  </head>
  <body>
   <script>
@@ -10,7 +11,7 @@
    if (!releaseId) {
     console.error("No release id provided");
    } else {
-    const jsonPath = `releases/${releaseId}.json`;
+    const jsonPath = `music/${releaseId}.json`;
 
     fetch(jsonPath)
      .then(response => {
@@ -30,7 +31,7 @@
    }
   </script>
   <h1 id="release-title" style="color:black;"></h1>
-  <picture>
+  <picture style="max-width:33%;">
    <img id="release-cover">
   </picture>
  </body>

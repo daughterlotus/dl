@@ -1,0 +1,111 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@font-face {
+ font-family: Neuton-Bold;
+ font-display: swap;
+ src: url(fonts/Neuton-Bold.ttf);
+}
+
+:root {
+ --whte: #FFFFFF;
+ --blck: #0D0D0D;
+ --lightMain: #C3EfE9;
+ --darkMain: #387A78;
+ --accent: #FEBC3F;
+}
+
+html {
+ background-color: var(--darkMain);
+}
+
+*, *:before, *:after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ clear: both;
+ overflow: visible;
+}
+
+picture {
+ max-width: 37.5%;
+ height: auto;
+}
+
+picture img {
+ width: 100%;
+ height: auto;
+ border: none;
+}
+
+.headerText {
+ padding: 1rem;
+ margin-top: 59px;
+ height: 33vh;
+ color: var(--lightMain);
+ display: flex;
+ flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+ width: 100%;
+ background-size: 50%;
+ background-repeat: repeat;
+ background-attachment: fixed;
+}
+
+#release-title {
+ font-size: 96px;
+ width: 100%;
+}
+
+#release-date {
+ font-size: 24px;
+ width: 100%;
+}
+
+#release-cover {
+ margin: 1rem;
+}
+
+#release-date {
+
+}
+
+#tracklist {
+ width: 100%;
+}
+
+.text-half {
+ margin: 1rem;
+ width: 60%;
+ gap: 1rem;
+ display: flex;
+ flex-wrap: wrap;
+ align-content: flex-start;
+}
+
+.listen-bar {
+ display: flex;
+ margin-top: 1rem;
+ list-style-type: none;
+ gap: 1.5rem;
+}
+
+#tracklist ul {
+ list-style-type: none;
+}
+
+td {
+ color: var(--whte);
+ font-size: 24px;
+ margin: 8px;
+}
