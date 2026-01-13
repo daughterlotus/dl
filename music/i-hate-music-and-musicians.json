@@ -1,0 +1,52 @@
+{
+  "id": "i-hate-music-and-musicians",
+  "title": "I HATE MUSIC & MUSICIANS",
+  "artist": "Daughter Lotus",
+  "type": "ep",
+  "releaseDate": "August 30th, 2025",
+  "releaseLength": "15 minutes, 13 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/IHATEMUSIC.webp",
+  "bgImage": "../images/ihmamBG.png",
+  "lightMain": "#C3EFE9",
+  "darkMain": "#387A78",
+  "accent": "#FEBC3F",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "I DO IT ALL FOR YOU",
+      "length": "2:57"
+    },
+    {
+      "number": 2,
+      "title": "YOU THINK I DO",
+      "length": "4:30"
+    },
+    {
+      "number": 3,
+      "title": "SIOBHAN (song for the coroner)",
+      "length": "3:39"
+    },
+    {
+      "number": 4,
+      "title": "WHAT YOU DO FOR ME",
+      "length": "4:07"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/2JdFGT6ASsFmM7m0ioz0Vv?si=sU7ql5jKRQ6IfJpHtdRFpw",
+    "appleMusic": "https://music.apple.com/gb/album/i-hate-music-musicians-ep/1833725321",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_k90NHV1h_LT7LSkqaOu1zwIB_6Rb9Q0zU&si=ZQ34D02zdYUUmYJb",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kzoSYX-XFUWVfuSu35SWE_GeGY44JYdP4&si=4UqsasCCLC-jYIB1",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/i-hate-music-musicians"
+  }
+}
