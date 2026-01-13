@@ -22,9 +22,16 @@
      .then(data => {
       console.log("Release data:", data);
       document.getElementById("release-title").textContent = data.title;
+      document.getElementById("release-cover").src = data.coverArt;
+     })
+     .catch(error => {
+      console.error("Release not found");
      });
    }
   </script>
   <h1 id="release-title" style="color:black;"></h1>
+  <picture>
+   <img id="release-cover">
+  </picture>
  </body>
 </html>
