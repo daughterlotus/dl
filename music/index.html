@@ -72,9 +72,7 @@
       console.log("release data:", data);
       document.title = data.title + " | Daughter Lotus";
       document.querySelector(".release-title").textContent = data.title;
-      let date = new Date(data.releaseDate);
-      let localDate = date.toLocaleString();
-      document.querySelector(".release-date").textContent = localDate;
+      document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").src = data.releaseLength;
       let bgURL = "url(" + data.bgImage + ")";
