@@ -71,20 +71,17 @@
      .then(data => {
       console.log("release data:", data);
       document.title = data.title + " | Daughter Lotus";
-      document.getElementsByClassName("release-title").textContent = data.title;
-      const date = data.releaseDate;
-      const optionsLongDate = { year: 'numeric', month: 'long', day: 'numeric' };
-      const formattedLongDate = new Intl.DateTimeFormat('en-US', optionsLongDate).format(date);
-      document.getElementsByClassName("release-date").textContent = formattedLongDate;
-      document.getElementsByClassName("release-cover").src = data.coverArt;
+      document.querySelectorAll(".release-title").textContent = data.title;
+      document.querySelectorAll(".release-date").textContent = data.releaseDate;
+      document.querySelectorAll(".release-cover").src = data.coverArt;
       let bgURL = "url(" + data.bgImage + ")";
-      document.getElementsByClassName("headerText").style.backgroundImage = bgURL;
-      document.getElementsByClassName("runtime").textContent = data.releaseLength;
-      document.getElementById("spotify").href = data.links.spotify;
-      document.getElementById("appleMusic").href = data.links.appleMusic;
-      document.getElementById("youtube").href = data.links.youtube;
-      document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
-      document.getElementById("bandcamp").href = data.links.bandcamp;
+      document.querySelector(".headerText").style.backgroundImage = bgURL;
+      // document.getElementsByClassName("runtime").textContent = data.releaseLength;
+      // document.getElementById("spotify").href = data.links.spotify;
+      // document.getElementById("appleMusic").href = data.links.appleMusic;
+      // document.getElementById("youtube").href = data.links.youtube;
+      // document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
+      // document.getElementById("bandcamp").href = data.links.bandcamp;
      })
      .catch(error => {
       console.error("Release not found");
