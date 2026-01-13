@@ -71,16 +71,16 @@
      .then(data => {
       console.log("Release data:", data);
       document.title = data.title + " | Daughter Lotus";
-      document.getElementById("release-title").textContent = data.title;
+      document.getElementsByClassName("release-title").textContent = data.title;
       const date = data.releaseDate;
       const optionsLongDate = { year: 'numeric', month: 'long', day: 'numeric' };
       const formattedLongDate = new Intl.DateTimeFormat('en-US', optionsLongDate).format(date);
-      document.getElementById("release-date").textContent = formattedLongDate;
-      document.getElementById("release-cover").src = data.coverArt;
+      document.getElementsByClassName("release-date").textContent = formattedLongDate;
+      document.getElementsByClassName("release-cover").src = data.coverArt;
       let bgURL = "url(" + data.bgImage + ")";
       document.getElementsByClassName("headerText").style.backgroundImage = bgURL;
-      document.getElementById("runtime").textContent = data.releaseLength;
-      document.getElementById("spotify").src = data.links.spotify;
+      document.getElementsByClassName("runtime").textContent = data.releaseLength;
+      document.getElementById("spotify").href = data.links.spotify;
       document.getElementById("appleMusic").href = data.links.appleMusic;
       document.getElementById("youtube").href = data.links.youtube;
       document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
@@ -93,15 +93,15 @@
 
   </script>
   <div class="headerText">
-   <h1 id="release-title">Music for Posing</h1>
-   <h3 id="release-date">January 2nd, 2026</h3>
+   <h1 class="release-title">Music for Posing</h1>
+   <h3 class="release-date">January 2nd, 2026</h3>
   </div>
   <div style="display:flex;flex-wrap:wrap;width:100%;gap:1rem;">
    <picture>
-    <img id="release-cover" src="../images/releases/MusicForPosing.jpg">
+    <img class="release-cover" src="../images/releases/MusicForPosing.jpg">
    </picture>
    <div class="text-half">
-   <div id="tracklist">
+   <div class="tracklist">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Tracklist:</h2>
     <table style="width:100%;">
      <tbody>
@@ -153,7 +153,7 @@
    <div style="width:100%;">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Details:</h2>
     <p style="color:var(--whte);font-size:18px;">Release Date: <span id="release-date">January 2nd, 2026</span>.<br>
-       Total Runtime: <span id="runtime">17 minutes, 42 seconds</span>.<br><br>
+       Total Runtime: <span class="runtime">17 minutes, 42 seconds</span>.<br><br>
        All tracks written, performed, recorded, mixed, and mastered by Daughter Lotus.</p>
    </div>
   </div>

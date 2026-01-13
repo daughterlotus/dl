@@ -62,21 +62,21 @@ picture img {
  background-attachment: fixed;
 }
 
-#release-title {
+.release-title {
  font-size: 96px;
  width: 100%;
 }
 
-.headerText #release-date {
+.headerText .release-date {
  font-size: 24px;
  width: 100%;
 }
 
-#release-cover {
+.release-cover {
  margin: 1rem;
 }
 
-#tracklist {
+.tracklist {
  width: 100%;
 }
 
@@ -96,7 +96,7 @@ picture img {
  gap: 1.5rem;
 }
 
-#tracklist ul {
+.tracklist ul {
  list-style-type: none;
 }
 
