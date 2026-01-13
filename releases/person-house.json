@@ -1,0 +1,77 @@
+{
+  "id": "person-house",
+  "title": "Person House",
+  "artist": "Daughter Lotus",
+  "type": "album",
+  "releaseDate": "2025-04-11",
+  "releaseLength": "39:38",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/personhouse.webp",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "I Hate You, Public Parking",
+      "length": "1:49"
+    },
+    {
+      "number": 2,
+      "title": "Tickets",
+      "length": "3:04"
+    },
+    {
+      "number": 3,
+      "title": "In a Dream",
+      "length": "4:14"
+    },
+    {
+      "number": 4,
+      "title": "Me, at My Worst",
+      "length": "4:59"
+    },
+    {
+      "number": 5,
+      "title": "Person House",
+      "length": "4:55"
+    },
+    {
+      "number": 6,
+      "title": "Meet Up",
+      "length": "4:16"
+    },
+    {
+      "number": 7,
+      "title": "Tell the Doctor",
+      "length": "3:26"
+    },
+    {
+      "number": 8,
+      "title": "The World",
+      "length": "4:59"
+    },
+    {
+      "number": 9,
+      "title": "Which Could Mean Nothing",
+      "length": "5:05"
+    },
+    {
+      "number": 10,
+      "title": "Holland",
+      "length": "2:51"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/6LPfMyhXu1t7DNR7aVKvwS?si=ByNiGGsGTtud3wJjT-YOPQ",
+    "appleMusic": "https://music.apple.com/gb/album/person-house/1801016116",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l6ePcLipioC4qR0kreaug7RoqXxYC4tpI&si=stXzqxa-DVExl-mK",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/music-for-posing"
+  }
+}

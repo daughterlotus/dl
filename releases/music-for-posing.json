@@ -4,6 +4,7 @@
   "artist": "Daughter Lotus",
   "type": "ep",
   "releaseDate": "2026-01-02",
+  "releaseLength": "17:42",
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/MusicForPosing.jpg",
   "description": "Null",
@@ -12,37 +13,37 @@
     {
       "number": 1,
       "title": "pirouette",
-      "length": "3:13"
+      "length": "3:12"
     },
     {
       "number": 2,
       "title": "doodle1 (we're almost home)",
-      "length": "0:57"
+      "length": "0:56"
     },
     {
       "number": 3,
       "title": "tORSo, or, touchmeTouchMeTOUCHME",
-      "length": "3:17"
+      "length": "3:16"
     },
     {
       "number": 4,
       "title": "doodle2 (do you like me?)",
-      "length": "1:50"
+      "length": "1:49"
     },
     {
       "number": 5,
       "title": "ADDICTS",
-      "length": "3:00"
+      "length": "2:59"
     },
     {
       "number": 6,
       "title": "doodle3 (a tribute to no one in particular)",
-      "length": "0:56"
+      "length": "0:55"
     },
     {
       "number": 7,
       "title": "Vigilante",
-      "length": "4:36"
+      "length": "4:35"
     }
   ],
 
