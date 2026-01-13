@@ -24,7 +24,7 @@
       document.getElementById("release-title").textContent = data.title;
      })
      .catch(error => {
-      console.error(error);
+      throw new Error("Release not found");
      })
    }
   </script>
