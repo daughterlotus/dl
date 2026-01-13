@@ -58,8 +58,7 @@ picture img {
  text-align: center;
  width: 100%;
  background-color: var(--darkMain);
- background-size: 50%;
- background-repeat: repeat;
+ background-size: cover;
  background-attachment: fixed;
 }
 
