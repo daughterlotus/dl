@@ -78,6 +78,20 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
+
+      const tracklist = querySelector(".tracklist");
+      data.tracks.forEach(track => {
+       const tr = document.createElement("tr");
+       const trackCell = document.createElement("td");
+       const timeCell = document.createElement("td");
+       trackCell.textContent = `${track.number}. ${track.title}`;
+       timeCell.textContent = `${track.length}`;
+       // timeCell.style.textAlign = "right";
+       tr.appendChild(trackCell);
+       tr.appendChild(timeCell);
+       tracklist.appendChild(tr);
+      });
+
       let bgURL = "url(" + data.bgImage + ")";
       document.querySelector(".headerText").style.backgroundImage = bgURL;
       document.getElementById("spotify").href = data.links.spotify;
@@ -101,15 +115,15 @@
     <img class="release-cover" src="../images/coverArtLoading.png">
    </picture>
    <div class="text-half">
-   <div class="tracklist">
+   <div style="width:100%;">
     <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Tracklist:</h2>
     <table style="width:100%;">
-     <tbody>
+     <tbody class="tracklist">
       <tr>
        <th style="text-align:left;width:85%;display:none;">Track:</th>
        <th style="text-align:right;width:15%;display:none;">Runtime:</th>
       </tr>
-      <tr>
+      <!-- <tr>
        <td style="padding-top:0;">1. pirouette</td>
        <td style="text-align:right;padding-top:0;">3:12</td>
       </tr>
@@ -136,7 +150,7 @@
       <tr>
        <td style="padding-bottom:0;">7. Vigilante</td>
        <td style="text-align:right;padding-bottom:0;">4:35</td>
-      </tr>
+      </tr> -->
      </tbody>
     </table>
    </div>
