@@ -15,6 +15,26 @@ html {
  src: url(../fonts/Neuton-Bold.ttf);
 }
 
+@media screen and (max-width: 700px) {
+ .content-box {flex-wrap:wrap;}
+ .headerText .release-title {font-size:12vw;}
+ .headerText .release-date {12px;}
+ .headerText {height:24vh;background-attachment:scroll;}
+ picture {max-width:100%;height:auto;}
+ h2 {text-align:center;}
+ p {text-align:center;}
+ .listen-bar {justify-content:center;}
+}
+
+@media screen and (min-width: 701px) {
+ .content-box {flex-wrap:nowrap;}
+ .headerText .release-title {font-size:96px;}
+ .headerText .release-date {font-size:24px;}
+ .headerText {height:33vh;background-attachment:fixed;}
+ picture {height:100%;width:auto;max-width:37.5%;}
+ h2 {text-align:left;}
+}
+
 :root {
  --whte: #FFFFFF;
  --blck: #0D0D0D;
@@ -36,7 +56,6 @@ html {
 }
 
 picture {
- max-width: 37.5%;
  height: auto;
 }
 
@@ -48,8 +67,8 @@ picture img {
 
 .headerText {
  padding: 1rem;
+ gap: 0.5rem;
  margin-top: 59px;
- height: 33vh;
  color: var(--lightMain);
  display: flex;
  flex-wrap: wrap;
@@ -59,21 +78,20 @@ picture img {
  width: 100%;
  background-color: var(--blck);
  background-size: cover;
- background-attachment: fixed;
+ background-position: center center;
+}
+
+.content-box {
+ display: flex;
+ padding: 1rem;
 }
 
 .release-title {
- font-size: 96px;
  width: 100%;
 }
 
 .headerText .release-date {
- font-size: 24px;
  width: 100%;
-}
-
-.release-cover {
- margin: 1rem;
 }
 
 .tracklist {
@@ -81,8 +99,6 @@ picture img {
 }
 
 .text-half {
- margin: 1rem;
- width: 60%;
  gap: 1rem;
  display: flex;
  flex-wrap: wrap;
