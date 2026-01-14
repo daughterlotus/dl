@@ -78,8 +78,10 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
+      let bgURL = "url(" + data.bgImage + ")";
+      document.querySelector(".headerText").style.backgroundImage = bgURL;
 
-      let tracklist = querySelector(".tracklist");
+      let tracklist = document.querySelector(".tracklist");
       data.tracks.forEach(track => {
        let tr = document.createElement("tr");
        let trackCell = document.createElement("td");
@@ -92,8 +94,6 @@
        tracklist.appendChild(tr);
       });
 
-      let bgURL = "url(" + data.bgImage + ")";
-      document.querySelector(".headerText").style.backgroundImage = bgURL;
       document.getElementById("spotify").href = data.links.spotify;
       document.getElementById("appleMusic").href = data.links.appleMusic;
       document.getElementById("youtube").href = data.links.youtube;
