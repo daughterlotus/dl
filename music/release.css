@@ -46,7 +46,7 @@ html {
 }
 
 html {
- background-color: var(--darkMain);
+ background-color: black;
 }
 
 *, *:before, *:after {
@@ -84,9 +84,14 @@ picture img {
  background-position: center center;
 }
 
+h2 {
+ width:100%;
+}
+
 .content-box {
  display: flex;
  padding: 1rem;
+ background-color: var(--darkMain);
 }
 
 .release-title {
