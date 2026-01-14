@@ -88,7 +88,7 @@
        let timeCell = document.createElement("td");
        trackCell.textContent = `${track.number}. ${track.title}`;
        timeCell.textContent = `${track.length}`;
-       // timeCell.style.textAlign = "right";
+       timeCell.style.textAlign = "right";
        tr.appendChild(trackCell);
        tr.appendChild(timeCell);
        tracklist.appendChild(tr);
@@ -116,7 +116,7 @@
    </picture>
    <div class="text-half">
    <div style="width:100%;">
-    <h2 style="color:var(--whte);font-size:28px;margin-bottom:1rem;">Tracklist:</h2>
+    <h2 style="color:var(--whte);font-size:28px;">Tracklist:</h2>
     <table style="width:100%;">
      <tbody class="tracklist">
       <tr>
