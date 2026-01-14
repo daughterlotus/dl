@@ -57,7 +57,7 @@ picture img {
  justify-content: center;
  text-align: center;
  width: 100%;
- background-color: var(--darkMain);
+ background-color: var(--blck);
  background-size: cover;
  background-attachment: fixed;
 }
