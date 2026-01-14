@@ -24,15 +24,17 @@ html {
  h2 {text-align:center;}
  p {text-align:center;}
  .listen-bar {justify-content:center;}
+ td {font-size: 14px;}
 }
 
 @media screen and (min-width: 701px) {
  .content-box {flex-wrap:nowrap;}
  .headerText .release-title {font-size:96px;}
  .headerText .release-date {font-size:24px;}
- .headerText {height:33vh;background-attachment:fixed;}
+ .headerText {height:40vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
  h2 {text-align:left;}
+ td {font-size: 24px;}
 }
 
 :root {
@@ -118,9 +120,9 @@ picture img {
 
 td {
  color: var(--whte);
- font-size: 24px;
 }
 
-tr {
- margin: 8px;
+table {
+ border-collapse: separate;
+ border-spacing: 0 1rem;
 }
