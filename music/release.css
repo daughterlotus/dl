@@ -29,7 +29,7 @@ html {
 
 @media screen and (min-width: 701px) {
  .content-box {flex-wrap:nowrap;}
- .headerText .release-title {font-size:96px;}
+ .headerText .release-title {font-size:6vw;}
  .headerText .release-date {font-size:24px;}
  .headerText {height:40vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
