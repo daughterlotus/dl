@@ -1,0 +1,57 @@
+{
+  "id": "forever",
+  "title": "Forever",
+  "artist": "Daughter Lotus",
+  "type": "ep",
+  "releaseDate": "October 18th, 2024",
+  "releaseLength": "12 minutes, 57 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/forever.webp",
+  "bgImage": null,
+  "lightMain": "#E8B5FA",
+  "darkMain": "#460259",
+  "accent": "#E3BC5F",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Sore",
+      "length": "2:12"
+    },
+    {
+      "number": 2,
+      "title": "Hooked",
+      "length": "2:31"
+    },
+    {
+      "number": 3,
+      "title": "Watch",
+      "length": "2:54"
+    },
+    {
+      "number": 4,
+      "title": "Spirit",
+      "length": "2:55"
+    },
+    {
+      "number": 5,
+      "title": "Forever",
+      "length": "2:22"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/6UXZ1s9k4nsZOexn4TEFpb?si=dze_d-4-SWeeFF6dcfWPtA",
+    "appleMusic": "https://music.apple.com/gb/album/forever-ep/1773853950",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_l8gbKw59rSzxAnTpD3ipmS7fB_vSvb1jc&si=sp3EVfkI32iHap1M",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mOxAc5VYl4nHH5KbzhcmDtRKtUCy1eYE8&si=14ChApJ-81WBV8hZ",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/forever"
+  }
+}
