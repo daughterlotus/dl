@@ -125,4 +125,5 @@ td {
 table {
  border-collapse: separate;
  border-spacing: 0 1rem;
+ margin-top: -1rem;
 }
