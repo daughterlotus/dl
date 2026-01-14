@@ -79,11 +79,11 @@
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
 
-      const tracklist = querySelector(".tracklist");
+      let tracklist = querySelector(".tracklist");
       data.tracks.forEach(track => {
-       const tr = document.createElement("tr");
-       const trackCell = document.createElement("td");
-       const timeCell = document.createElement("td");
+       let tr = document.createElement("tr");
+       let trackCell = document.createElement("td");
+       let timeCell = document.createElement("td");
        trackCell.textContent = `${track.number}. ${track.title}`;
        timeCell.textContent = `${track.length}`;
        // timeCell.style.textAlign = "right";
