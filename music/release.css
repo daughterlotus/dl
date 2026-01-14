@@ -24,7 +24,7 @@ html {
  h2 {text-align:center;}
  p {text-align:center;}
  .listen-bar {justify-content:center;}
- td {font-size: 14px;}
+ td {font-size: 16px;}
 }
 
 @media screen and (min-width: 701px) {
@@ -34,7 +34,7 @@ html {
  .headerText {height:40vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
  h2 {text-align:left;}
- td {font-size: 24px;}
+ td {font-size: 16px;}
 }
 
 :root {
@@ -55,6 +55,7 @@ html {
  box-sizing: border-box;
  clear: both;
  overflow: visible;
+ font-family: Neuton-Bold;
 }
 
 picture {
@@ -120,10 +121,15 @@ picture img {
 
 td {
  color: var(--whte);
+ font-family: Verdana;
 }
 
 table {
  border-collapse: separate;
  border-spacing: 0 1rem;
  margin-top: -2rem;
+}
+
+p, .runtime, .credits {
+ font-family: Verdana;
 }
