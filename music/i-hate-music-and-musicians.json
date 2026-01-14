@@ -8,9 +8,9 @@
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/IHATEMUSIC.webp",
   "bgImage": "../images/ihmamBG.png",
-  "lightMain": "#C3EFE9",
-  "darkMain": "#387A78",
-  "accent": "#FEBC3F",
+  "lightMain": "#F1EFE0",
+  "darkMain": "#1E2303",
+  "accent": "#AF9A57",
   "description": "Null",
 
   "tracks": [
