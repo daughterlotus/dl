@@ -103,13 +103,12 @@ html {
 }
 
 .footer {
- padding: 2rem;
  display:flex;
  justify-content: center;
  align-content:center;
  background-color: black;
  width:100%;
- min-height: 12.5vh;
+ height: max(100px, 10vh);
 }
 
 .footer div {
