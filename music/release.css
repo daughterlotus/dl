@@ -15,27 +15,28 @@ html {
  src: url(../fonts/Neuton-Bold.ttf);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
  .content-box {flex-wrap:wrap;}
- .headerText .release-title {font-size:12vw;}
- .headerText h3 {1vw;}
- .headerText {height:32vh;background-attachment:scroll;}
- picture {max-width:100%;height:auto;}
+ .headerText .release-title {font-size:max(44px, 6vw);}
+ .headerText h3 {font-size:max(16px, 3vw);}
+ .headerText {height:28vh;background-attachment:scroll;}
+ picture {width:100%;height:auto;}
  h2 {text-align:center;font-size:7.5vw;}
- p {text-align:center;font-size:4vw;}
+ .credits, .runtime {font-size:max(10px, 3vw);}
+ p {text-align:center;font-size:max(10px, 3vw);}
  .listen-bar {justify-content:center;}
- td {font-size: 4vw;}
+ td {font-size:max(10px, 3vw);}
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 801px) {
  .content-box {flex-wrap:nowrap;}
- .headerText .release-title {font-size:6vw;}
- .headerText h3 {font-size:1.75vw;}
+ .headerText .release-title {font-size:max(44px, 6vw);}
+ .headerText h3 {font-size:max(16px, 1.75vw);}
  .headerText {height:30vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
- h2 {text-align:left;font-size:1.75vw;}
- p, .credits, .runtime {font-size:0.75vw;}
- td {font-size: 0.75vw;}
+ h2 {text-align:left;font-size:max(28px, 1.75vw);}
+ p, .credits, .runtime {font-size:max(14px, 0.75vw)}
+ td {font-size: max(14px, 0.75vw);}
 }
 
 :root {
@@ -119,6 +120,11 @@ h2 {
  margin-top: 1rem;
  list-style-type: none;
  gap: 1.5rem;
+}
+
+.listen-bar li a img {
+ height: max(37.5px, 3.4722vh);
+ width: max(37.5px, 1.9531vw);
 }
 
 .tracklist ul {

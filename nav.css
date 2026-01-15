@@ -16,7 +16,7 @@ html {
 }
 
 .pagelinks li {
- margin: 0 8px;
+ margin: 0 0.5vw;
  align-self:center;
  padding-bottom: 5px;
 }
@@ -43,14 +43,14 @@ html {
  text-decoration: none;
  color: hsl(170.77deg 51.18% 75.1%);
  text-align:center;
- font-size:22px;
+ font-size: max(22px, 1.14583333vw);
  transition-duration: 0.2s;
  font-family: "Neuton-Bold", serif;
  align-self:center;
 }
 
 .desktop-menubar img {
- max-height: 35.98px;
+ height:max(35.97px, 3vh);
 }
 
 .pagelinks a:hover {
@@ -109,10 +109,16 @@ html {
  align-content:center;
  background-color: black;
  width:100%;
+ min-height: 12.5vh;
+}
+
+.footer div {
+ display: grid;
+ align-items: center;
+ align-content: center;
 }
 
 .footerSocialBar {
- max-width: 256px;
  justify-self: center;
  justify-content: center;
  align-items: center;
@@ -121,7 +127,7 @@ html {
 
 .footerSocialBar li {
  aspect-ratio: 1/1;
- max-height: 30px;
+ height: max(30px, 2.778vh);
  margin: 0.5rem;
  margin-top: 1rem;
  min-width: 30px;

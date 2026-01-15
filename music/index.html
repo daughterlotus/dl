@@ -9,9 +9,9 @@
  </head>
  <body>
   <div style="background-color:black;min-height:56px;width:100%;top:0;position:fixed;">
-   <div class="desktop-menubar" style="top:0;position:fixed;width:100%;background-color:black;min-height:56px;width:100%;align-items:center;padding:12px;z-index:10;justify-content:space-between;">
+   <div class="desktop-menubar" style="top:0;position:fixed;width:100%;background-color:black;height:max(60px,5.5556vh);width:100%;align-items:center;padding:12px;z-index:10;justify-content:space-between;">
     <a href="../" style="max-width:50%;display:flex;align-items:center;" aria-label="Visit the homepage of daughterlotus.com">
-     <img src="../dlHorizontal.webp" width="1000" height="132" alt="The logo for Daughter Lotus." style="height:40px;width:auto;">
+     <img src="../dlHorizontal.webp" width="1000" height="132" alt="The logo for Daughter Lotus." style="width:auto;">
     </a>
     <div class="pagelinks">
      <ul style="list-style-type:none;display:flex;justify-content:flex-end;">
@@ -21,11 +21,11 @@
      </ul>
     </div>
    </div>
-   <div class="mobile-menubar" style="top:0;position:fixed;width:100%;background-color:black;width:100%;align-items:center;padding:10px;z-index:10;justify-content:flex-start;">
+   <div class="mobile-menubar" style="top:0;position:fixed;width:100%;background-color:black;align-items:center;height:max(60px,5.5556vh);padding:10px;z-index:10;justify-content:flex-start;">
     <a style="display:flex;align-items:center;justify-content:center;margin:8px;border:none;" id="MenuButton">
      <img src="../hamburg.webp" width="24" height="24" style="border-radius:2px;" alt="Menu symbol, three short horizontal lines stacked on top of each other.">
     </a>
-    <img src="../dlHorizontal.webp" alt="The logo for Daughter Lotus." style="max-width:75%;height:auto;max-height:36px;justify-self:center;margin-left:8px;"></img>
+    <img src="../dlHorizontal.webp" alt="The logo for Daughter Lotus." style="max-width:75%;height:auto;max-height:3vh;min-height:40px;justify-self:center;margin-left:8px;"></img>
     <div id="screen-mobile-nav" style="display:none;">
      <a id="InMenuButton" style="padding:0.5rem;display:flex;border:none;">
       <img src="../hamburg.webp" alt="Close mobile menu icon" aria-label="Click to close the list of pages on itsybitsyband.com" width="24" height="24">
@@ -112,7 +112,7 @@
    <h1 class="release-title">Loading Title...</h1>
    <h3><span class="release-type">Type loading...</span> | <span class="release-date">Release date loading...</span></h3>
   </div>
-  <div class="content-box" style="height:100%;gap:1rem;">
+  <div class="content-box" style="min-height:50vh;gap:1rem;">
    <picture>
     <img class="release-cover" src="../images/loadingArt.jpg">
    </picture>
@@ -125,7 +125,7 @@
        <th style="text-align:left;width:85%;display:none;">Track:</th>
        <th style="text-align:right;width:15%;display:none;">Runtime:</th>
       </tr>
-      <!-- <tr>
+      <tr>
        <td style="padding-top:0;">1. pirouette</td>
        <td style="text-align:right;padding-top:0;">3:12</td>
       </tr>
@@ -152,11 +152,11 @@
       <tr>
        <td style="padding-bottom:0;">7. Vigilante</td>
        <td style="text-align:right;padding-bottom:0;">4:35</td>
-      </tr> -->
+      </tr>
      </tbody>
     </table>
    </div>
-   <div style="width:100%;border-top:2px solid var(--lightMain);border-bottom:2px solid var(--lightMain);padding:20px 0;">
+   <div style="width:100%;border-top:2px solid var(--lightMain);border-bottom:2px solid var(--lightMain);padding:1rem 0;">
     <h2 style="color:var(--whte);margin-bottom:1rem;">Listen:</h2>
     <ul class="listen-bar">
       <li><a id="spotify" target="_blank" aria-label=""><img src="../images/social/spoofywhite.svg" width="37.5" height="37.5"></a></li>
