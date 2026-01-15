@@ -18,7 +18,7 @@ html {
 @media screen and (max-width: 700px) {
  .content-box {flex-wrap:wrap;}
  .headerText .release-title {font-size:12vw;}
- .headerText .release-date {12px;}
+ .headerText h3 {12px;}
  .headerText {height:24vh;background-attachment:scroll;}
  picture {max-width:100%;height:auto;}
  h2 {text-align:center;}
@@ -30,7 +30,7 @@ html {
 @media screen and (min-width: 701px) {
  .content-box {flex-wrap:nowrap;}
  .headerText .release-title {font-size:6vw;}
- .headerText .release-date {font-size:24px;}
+ .headerText h3 {font-size:24px;}
  .headerText {height:40vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
  h2 {text-align:left;}
