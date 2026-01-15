@@ -88,6 +88,7 @@ picture img {
 
 h2 {
  width:100%;
+ color: var(--lightMain);
 }
 
 .content-box {
@@ -100,8 +101,10 @@ h2 {
  width: 100%;
 }
 
-.headerText h3 {
+.headerText h3, .release-type, .release-date {
  width: 100%;
+ color: var(--whte);
+ font-weight: normal;
 }
 
 .tracklist {
