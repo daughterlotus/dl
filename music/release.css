@@ -18,23 +18,24 @@ html {
 @media screen and (max-width: 700px) {
  .content-box {flex-wrap:wrap;}
  .headerText .release-title {font-size:12vw;}
- .headerText h3 {12px;}
- .headerText {height:24vh;background-attachment:scroll;}
+ .headerText h3 {1vw;}
+ .headerText {height:32vh;background-attachment:scroll;}
  picture {max-width:100%;height:auto;}
- h2 {text-align:center;}
- p {text-align:center;}
+ h2 {text-align:center;font-size:7.5vw;}
+ p {text-align:center;font-size:4vw;}
  .listen-bar {justify-content:center;}
- td {font-size: 16px;}
+ td {font-size: 4vw;}
 }
 
 @media screen and (min-width: 701px) {
  .content-box {flex-wrap:nowrap;}
  .headerText .release-title {font-size:6vw;}
- .headerText h3 {font-size:24px;}
- .headerText {height:40vh;background-attachment:fixed;}
+ .headerText h3 {font-size:1.75vw;}
+ .headerText {height:30vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
- h2 {text-align:left;}
- td {font-size: 16px;}
+ h2 {text-align:left;font-size:1.75vw;}
+ p {font-size:1vw;}
+ td {font-size: 1vw;}
 }
 
 :root {
