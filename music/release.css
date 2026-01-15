@@ -34,8 +34,8 @@ html {
  .headerText {height:30vh;background-attachment:fixed;}
  picture {height:100%;width:auto;max-width:37.5%;}
  h2 {text-align:left;font-size:1.75vw;}
- p {font-size:1vw;}
- td {font-size: 1vw;}
+ p, .credits, .runtime {font-size:0.75vw;}
+ td {font-size: 0.75vw;}
 }
 
 :root {
