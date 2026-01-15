@@ -76,6 +76,7 @@
       root.style.setProperty('--accent', data.accent);
       document.title = data.title + " (" + data.type + ") | Daughter Lotus";
       document.querySelector(".release-title").textContent = data.title;
+      document.querySelector(".release-type").textContent = data.type;
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
