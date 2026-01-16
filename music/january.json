@@ -1,0 +1,52 @@
+{
+  "id": "january",
+  "title": "January",
+  "artist": "Daughter Lotus",
+  "type": "EP",
+  "releaseDate": "January 5th, 2024",
+  "releaseLength": "13 minutes, 11 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/january.webp",
+  "bgImage": null,
+  "lightMain": "#D9B89C",
+  "darkMain": "#736355",
+  "accent": "#0597F2",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "My Head",
+      "length": "3:46"
+    },
+    {
+      "number": 2,
+      "title": "Interruption",
+      "length": "2:03"
+    },
+    {
+      "number": 3,
+      "title": "Cherry Stains",
+      "length": "3:32"
+    },
+    {
+      "number": 4,
+      "title": "Alive",
+      "length": "3:50"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/23Sb3pdzyYx07Nu8ITVwzK?si=mk0l23HOTIeHaa-mJtAn8w%22",
+    "appleMusic": "https://music.apple.com/gb/album/january-ep/1724023898",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_lr3Codc1XhsBMxZXf0g02pYCvdMpNpal4&si=bCDIMAhGZGXQMYck",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kA_o6BMSthiOwLduz4WExQR7AY2AND5OA&si=ypheuBSljOgDvJNV",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/january"
+  }
+}

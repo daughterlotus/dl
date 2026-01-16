@@ -1,0 +1,52 @@
+{
+  "id": "driftwood",
+  "title": "Driftwood",
+  "artist": "Daughter Lotus",
+  "type": "EP",
+  "releaseDate": "June 28th, 2024",
+  "releaseLength": "15 minutes, 27 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/driftwood.webp",
+  "bgImage": null,
+  "lightMain": "#048ABF",
+  "darkMain": "#024873",
+  "accent": "#04B2D9",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Standards",
+      "length": "3:55"
+    },
+    {
+      "number": 2,
+      "title": "Hard To",
+      "length": "2:45"
+    },
+    {
+      "number": 3,
+      "title": "If It All Stayed the Same",
+      "length": "4:50"
+    },
+    {
+      "number": 4,
+      "title": "Think of Me",
+      "length": "3:57"
+    }
+  ],
+
+  "credits": {
+    "producer": "Daughter Lotus",
+    "mixing": "Daughter Lotus",
+    "mastering": "Daughter Lotus"
+  },
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/2NpnICzImHbCm5Lol5VO4d?si=v-8rhONFRkqDmjHjHPe_uA",
+    "appleMusic": "https://music.apple.com/gb/album/driftwood-ep/1753434612",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_nCnfYt5hIWMv5xgsvW7WvPFgufDqXcJlU&si=Bf_-ZO24JLiJywfc",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k3G0niaAKI47_7OB2K4atvayopVkq5p6A&si=UpAY8jgSBZ-4rE9z",
+    "bandcamp": "https://daughterlotus.bandcamp.com/album/driftwood"
+  }
+}
