@@ -42,7 +42,7 @@ html {
 .pagelinks a {
  text-decoration: none;
  color: hsl(170.77deg 51.18% 75.1%);
- text-align:center;
+ text-align: center;
  font-size: max(22px, 1.14583333vw);
  transition-duration: 0.2s;
  font-family: "Neuton-Bold", serif;
@@ -54,7 +54,7 @@ html {
 }
 
 .pagelinks a:hover {
- color: white;
+ color: var(--whte);
 }
 
 .pagelinks {
@@ -79,22 +79,22 @@ html {
  padding: 10px;
  z-index: 9999;
  text-align: center;
- background-color: #000000;
+ background-color: black;
 }
 
 #screen-mobile-nav ul {
- display:flex;
- justify-content:center;
- align-items:center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  align-content: center;
  flex-wrap: wrap;
  height: 80%;
- gap:1rem;
+ gap: 1rem;
 }
 
 #screen-mobile-nav a {
  text-decoration: none;
- color: white;
+ color: hsl(170.77deg 51.18% 75.1%);
  font-size: 20px;
  text-align: center;
  padding: 2rem 6rem;
@@ -108,7 +108,7 @@ html {
  align-content:center;
  background-color: black;
  width:100%;
- height: max(100px, 10vh);
+ height: max(120px, 10vh);
 }
 
 .footer div {
