@@ -15,6 +15,11 @@ html {
  src: url(fonts/Neuton-Bold.ttf);
 }
 
+:root {
+ --whte: #FFFFFF;
+ --blck: #0D0D0D;
+}
+
 .pagelinks li {
  margin: 0 0.5vw;
  align-self:center;

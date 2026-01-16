@@ -32,7 +32,7 @@ html {
  .content-box {flex-wrap:nowrap;}
  .headerText .release-title {font-size:max(44px, 6vw);}
  .headerText h3 {font-size:max(16px, 1.75vw);}
- .headerText {height:35vh;background-attachment:fixed;}
+ .headerText {height:35vh;}
  picture {height:100%;max-width:37.5%;}
  h2 {text-align:left;font-size:max(28px, 1.75vw);}
  p, .credits, .runtime {font-size:max(14px, 0.75vw)}
@@ -81,9 +81,7 @@ picture img {
  justify-content: center;
  text-align: center;
  width: 100%;
- background-color: var(--darkMain);
- background-size: cover;
- background-position: center center;
+ background-image: linear-gradient(to bottom, var(--blck), var(--darkMain));
 }
 
 h2 {
