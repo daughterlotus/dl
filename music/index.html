@@ -91,8 +91,7 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
-      let nullVal = "null";
-      if (data.bgImage == nullVal) {
+      if (!data.bgImage) {
        let bGradient = "linear-gradient(to bottom, var(--accent), var(--darkMain))";
        document.querySelector(".headerText").style.backgroundImage = bgURL;
       } else {
