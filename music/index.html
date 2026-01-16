@@ -92,6 +92,8 @@
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
       if (!data.bgImage) {
+       document.querySelector(".headerText").style.backgroundAttachment = "scroll";
+       document.querySelector(".headerText").style.backgroundSize = "contain";
        let bGradient = "linear-gradient(to bottom, var(--accent), var(--darkMain))";
        document.querySelector(".headerText").style.backgroundImage = bgURL;
       } else {
