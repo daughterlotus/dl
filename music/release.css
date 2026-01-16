@@ -100,10 +100,16 @@ h2 {
  width: 100%;
 }
 
-.headerText h3, .release-type, .release-date {
+.release-type {
  width: 100%;
- color: var(--whte);
  font-weight: normal;
+ color: var(--accent);
+}
+
+.headerText h3, .release-date {
+ width: 100%;
+ font-weight: normal;
+ color: var(--whte);
 }
 
 .tracklist {
