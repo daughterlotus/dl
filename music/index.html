@@ -93,14 +93,22 @@
       document.querySelector(".runtime").textContent = data.releaseLength;
       if (!data.bgImage) {
        document.querySelector(".headerText").style.backgroundAttachment = "scroll";
+       console.log("now scroll");
        document.querySelector(".headerText").style.backgroundSize = "contain";
+       console.log("now contain");
        let bGradient = "linear-gradient(to bottom, var(--accent), var(--darkMain))";
+       console.log("now gradient");
        document.querySelector(".headerText").style.backgroundImage = bgURL;
+       console.log("now set no bg");
       } else {
        document.querySelector(".headerText").style.backgroundAttachment = "fixed";
+       console.log("now fixed");
        document.querySelector(".headerText").style.backgroundSize = "cover";
+       console.log("now cover");
        let bgURL = "url(" + data.bgImage + ")";
+       console.log("now url");
        document.querySelector(".headerText").style.backgroundImage = bgURL;
+       console.log("now set bg");
       }
 
       let tracklist = document.querySelector(".tracklist");
