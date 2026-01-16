@@ -82,6 +82,7 @@ picture img {
  text-align: center;
  width: 100%;
  background-image: linear-gradient(to bottom, var(--blck), var(--darkMain));
+ background-position: center center;
 }
 
 h2 {
