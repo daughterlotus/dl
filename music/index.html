@@ -91,7 +91,7 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
-      if (data.bgImage == null) {
+      if (data.bgImage == "null") {
        let bGradient = "linear-gradient(to bottom, var(--accent), var(--darkMain))";
        document.querySelector(".headerText").style.backgroundImage = bgURL;
       } else {
@@ -143,7 +143,7 @@
        <th style="text-align:left;width:85%;display:none;">Track:</th>
        <th style="text-align:right;width:15%;display:none;">Runtime:</th>
       </tr>
-      <tr>
+      <!-- <tr>
        <td style="padding-top:0;">1. pirouette</td>
        <td style="text-align:right;padding-top:0;">3:12</td>
       </tr>
@@ -182,7 +182,7 @@
       <tr>
        <td style="padding-bottom:0;">7. Vigilante</td>
        <td style="text-align:right;padding-bottom:0;">4:35</td>
-      </tr>
+      </tr> -->
      </tbody>
     </table>
    </div>
