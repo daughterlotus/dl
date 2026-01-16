@@ -92,7 +92,7 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
-      document.querySelector(".credits").textContent = data.credits;
+      document.querySelector(".credits").innerHTML = data.credits;
       if (!data.bgImage) {
        document.querySelector(".headerText").style.backgroundAttachment = "scroll";
        document.querySelector(".headerText").style.backgroundSize = "contain";
@@ -125,7 +125,7 @@
       if (data.links.bandcamp) {
        document.getElementById("bandcamp").href = data.links.bandcamp;
       } else {
-       document.getElementById("bandcamp").style.visibility = "hidden";
+       document.getElementById("bandcamp").parentElement.style.display = "none";
       }
      })
      .catch(error => {
