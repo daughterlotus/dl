@@ -92,6 +92,7 @@
       document.querySelector(".release-date").textContent = data.releaseDate;
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
+      document.querySelector(".credits").textContent = data.credits;
       if (!data.bgImage) {
        document.querySelector(".headerText").style.backgroundAttachment = "scroll";
        document.querySelector(".headerText").style.backgroundSize = "contain";
@@ -129,6 +130,7 @@
    }
 
   </script>
+<div style="background-color:var(--darkMain);">
   <div class="headerText">
    <h1 class="release-title">Loading Title...</h1>
    <h3><span class="release-type">Type loading...</span> | <span class="release-date">Release date loading...</span></h3>
@@ -202,10 +204,11 @@
    <div style="width:100%;">
     <h2 style="margin-bottom:1rem;">Details:</h2>
     <p style="color:var(--whte);">Total Runtime: <span class="runtime"></span>.<br><br>
-       <span class="credits">All tracks written, performed, recorded, mixed, and mastered by Daughter Lotus<credits>.</p>
+       <span class="credits">All tracks written, performed, recorded, mixed, and mastered by Daughter Lotus</span></p>
    </div>
   </div>
   </div>
+</div>
   <div class="footer">
    <div>
     <p style="color:white;font-family:Verdana,sans-serif;height:auto;text-align:center;">©2026 Daughter Lotus.</p>
