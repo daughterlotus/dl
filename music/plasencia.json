@@ -1,0 +1,76 @@
+{
+  "id": "plasencia",
+  "title": "Plasencia",
+  "artist": "Daughter Lotus",
+  "type": "Album",
+  "releaseDate": "September 1st, 2023",
+  "releaseLength": "31 minutes, 2 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/plasencia.webp",
+  "lightMain": "#F2C641",
+  "darkMain": "#401612",
+  "accent": "#F28B30",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "You",
+      "length": "1:04"
+    },
+    {
+      "number": 2,
+      "title": "After You",
+      "length": "4:02"
+    },
+    {
+      "number": 3,
+      "title": "Sure",
+      "length": "3:28"
+    },
+    {
+      "number": 4,
+      "title": "You Can't Tell Anyone",
+      "length": "4:26"
+    },
+    {
+      "number": 5,
+      "title": "Before Plasencia",
+      "length": "1:22"
+    },
+    {
+      "number": 6,
+      "title": "Plasencia",
+      "length": "3:26"
+    },
+    {
+      "number": 7,
+      "title": "Lotizen",
+      "length": "2:51"
+    },
+    {
+      "number": 8,
+      "title": "EXPRESSIONINTERLUDE",
+      "length": "2:43"
+    },
+    {
+      "number": 9,
+      "title": "Severance",
+      "length": "5:00"
+    },
+    {
+      "number": 10,
+      "title": "Daughter Lotus",
+      "length": "2:40"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Witt: Executive Producer (tracks 1, 2, 6, 9)<br>Robyn: Executive Producer (track 2)<br>Joseph Thomson: Violin (track 2)",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/3zcw2OjHD7X23Xco3xPiw7?si=m9eFI7SnQEagt0xj0CeR7A",
+    "appleMusic": "https://music.apple.com/gb/album/plasencia/1704516213",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_k0Sw5x8f00vFgIbekZ8hzMWzR18gv_8z4&si=1B9HlzKa90T17FFQ",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n3BQam_XHgZbUKl5W9OCdqVY0Rs_Vyh3k&si=_JjpzmMlmvaJPKeV"
+  }
+}

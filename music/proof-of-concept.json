@@ -1,0 +1,66 @@
+{
+  "id": "proof-of-concept",
+  "title": "Proof of Concept",
+  "artist": "Daughter Lotus",
+  "type": "Album",
+  "releaseDate": "October 27th, 2023",
+  "releaseLength": "24 minutes, 13 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/proofofconcept.webp",
+  "lightMain": "#D9D277",
+  "darkMain": "#734217",
+  "accent": "#BF0606",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Air",
+      "length": "1:52"
+    },
+    {
+      "number": 2,
+      "title": "Prove It",
+      "length": "3:13"
+    },
+    {
+      "number": 3,
+      "title": "You Owe Me",
+      "length": "5:25"
+    },
+    {
+      "number": 4,
+      "title": "Have More",
+      "length": "1:51"
+    },
+    {
+      "number": 5,
+      "title": "Compromise",
+      "length": "1:21"
+    },
+    {
+      "number": 6,
+      "title": "&4mynext trick",
+      "length": "3:28"
+    },
+    {
+      "number": 7,
+      "title": "Malignant",
+      "length": "1:46"
+    },
+    {
+      "number": 8,
+      "title": "Catastrophism",
+      "length": "5:17"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/4ILNHiA57HaAtjp8UWOmTK?si=jrJrwIJORrqRmAxd5c77Mw",
+    "appleMusic": "https://music.apple.com/gb/album/proof-of-concept/1713124125",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kphLoPHWZaJEBSUGOifSBROUSLoQ5pbVY&si=3YDYqwKcdPK_t0F5",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k2ixszZh4B6nVRmanv46aSoUgpHdFPcx0&si=tb4rFcBb7p90DlLV"
+  }
+}

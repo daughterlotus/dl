@@ -122,7 +122,11 @@
       document.getElementById("appleMusic").href = data.links.appleMusic;
       document.getElementById("youtube").href = data.links.youtube;
       document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
-      document.getElementById("bandcamp").href = data.links.bandcamp;
+      if (data.links.bandcamp) {
+       document.getElementById("bandcamp").href = data.links.bandcamp;
+      } else {
+       document.getElementById("bandcamp").style.visibility = "hidden";
+      }
      })
      .catch(error => {
       console.error("Release not found");
