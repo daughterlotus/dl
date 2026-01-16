@@ -100,13 +100,7 @@ h2 {
  width: 100%;
 }
 
-.release-type {
- width: 100%;
- font-weight: normal;
- color: var(--accent);
-}
-
-.headerText h3, .release-date {
+.headerText h3, .release-type, .release-date {
  width: 100%;
  font-weight: normal;
  color: var(--whte);
