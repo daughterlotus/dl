@@ -1,0 +1,31 @@
+{
+  "id": "standards",
+  "title": "Standards",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "April 26th, 2024",
+  "releaseLength": "3 minutes, 55 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/standards.webp",
+  "lightMain": "#9E6BBF",
+  "darkMain": "#342D4C",
+  "accent": "#4960A6",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Standards",
+      "length": "3:55"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/1FOQ8smjNyqfalcQTSJTgK?si=HcF3JFOqQheUAnAYmxQq8g",
+    "appleMusic": "https://music.apple.com/gb/album/standards-single/1742965355",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_l10RaPQzpPzzWTVYzRZCrhCJlQUh1F71M&si=6AmhH8g8XvSWhfVg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nZTVoclhIiPqLCoXk5lNHeIMCOmN-bElE&si=393FnXItz_5o4UVy"
+  }
+}
