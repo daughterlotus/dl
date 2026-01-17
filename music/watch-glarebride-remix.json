@@ -1,0 +1,31 @@
+{
+  "id": "watch-glarebride-remix",
+  "title": "Watch (Glarebride Remix)",
+  "artist": "Daughter Lotus • Glarebride",
+  "type": "Single",
+  "releaseDate": "November 22nd, 2024",
+  "releaseLength": "4 minutes, 11 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/watchglarebride.webp",
+  "lightMain": "#5EBFBF",
+  "darkMain": "#6A4873",
+  "accent": "#6099A6",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Watch (Glarebride Remix)",
+      "length": "4:11"
+    }
+  ],
+
+  "credits": "Track originally written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Remixed by Glarebride.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/5aG96EzwjT43LLr3gAwVmV?si=GMnSmIZtRU20xWYbGIR0eQ",
+    "appleMusic": "https://music.apple.com/gb/album/watch-glarebride-remix-single/1781023720",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kYO-1CICLkIkMu-ymJHmObKG0Vv4hRqno&si=bpMfs5xRBwzgnmpG",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mBu2gSYfmLzAgNa5-XQZuKLljtnb8dzfI&si=vL7V3Ea848TmRaVE"
+  }
+}
