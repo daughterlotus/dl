@@ -1,0 +1,32 @@
+{
+  "id": "flight",
+  "title": "Flight",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "March 1st, 2024",
+  "releaseLength": "4 minutes, 20 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/flight.webp",
+  "lightMain": "#D8E0F2",
+  "darkMain": "#732F3B",
+  "accent": "#5F7D85",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Flight",
+      "length": "3:40"
+    },
+    {
+      "number": 2,
+      "title": "entry 4",
+      "length": "0:40"
+    }
+  ],
+
+  "credits": "All tracks performed, recorded, produced, mixed, and mastered by Daughter Lotus. \"Flight\" written by Daughter Lotus, \"entry 4\" written by jaydes",
+
+  "links": {
+  }
+}

@@ -130,10 +130,26 @@
        tracklist.appendChild(tr);
       });
 
-      document.getElementById("spotify").href = data.links.spotify;
-      document.getElementById("appleMusic").href = data.links.appleMusic;
-      document.getElementById("youtube").href = data.links.youtube;
-      document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
+      if (data.links.spotify) {
+       document.getElementById("spotify").href = data.links.spotify;
+      } else {
+       document.getElementById("spotify").parentElement.style.display = "none";
+      }
+      if (data.links.appleMusic) {
+       document.getElementById("appleMusic").href = data.links.appleMusic;
+      } else {
+       document.getElementById("appleMusic").parentElement.style.display = "none";
+      }
+      if (data.links.youtube) {
+       document.getElementById("youtube").href = data.links.youtube;
+      } else {
+       document.getElementById("youtube").parentElement.style.display = "none";
+      }
+      if (data.links.youtubeMusic) {
+       document.getElementById("youtubeMusic").href = data.links.youtubeMusic;
+      } else {
+       document.getElementById("youtubeMusic").parentElement.style.display = "none";
+      }
       if (data.links.bandcamp) {
        document.getElementById("bandcamp").href = data.links.bandcamp;
       } else {
