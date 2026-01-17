@@ -1,0 +1,36 @@
+{
+  "id": "daughter-lotus",
+  "title": "Daughter Lotus",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "August 25th, 2023",
+  "releaseLength": "6 minutes, 42 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/plasencia.webp",
+  "lightMain": "#F2C641",
+  "darkMain": "#401612",
+  "accent": "#F28B30",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Daughter Lotus",
+      "length": "2:40"
+    },
+    {
+      "number": 2,
+      "title": "After You",
+      "length": "4:02"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Witt: Executive Producer<br>Robyn: Executive Producer (track 2)<br>Joseph Thomson: Violin (track 2)",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/6PFO0wjSQZkhKR4pY14JnG?si=o_PpelRFRwCqUAJc5dyQDg",
+    "appleMusic": "https://music.apple.com/gb/album/daughter-lotus-single/1703601151",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_lyQFIV0qeL8i3JuVv2DTrgl_XzJZM45j4&si=FPNpcLfwMTVXYUCO",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nvw23bfPmIEXWtddav7pDv3CRnLKeHG3Y&si=RfYQBHwJ5diC-PEk"
+  }
+}

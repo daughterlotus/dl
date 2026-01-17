@@ -1,0 +1,36 @@
+{
+  "id": "me-at-my-worst",
+  "title": "Me, at My Worst",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "March 28th, 2025",
+  "releaseLength": "8 minutes, 25 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/personhouse.webp",
+  "lightMain": "#C39AE8",
+  "darkMain": "#202A22",
+  "accent": "#CFACF2",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Me, at My Worst",
+      "length": "4:59"
+    },
+    {
+      "number": 2,
+      "title": "Tell the Doctor",
+      "length": "3:26"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/3ieqCNG1ZZbXDLWdiyereK?si=-FQMHpHsTzqRjYVYyyWv7w",
+    "appleMusic": "https://music.apple.com/gb/album/me-at-my-worst-single/1801009758",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kOBBZ2YFTlWvh0RUOr_X-LIJZRUBEllIE&si=B0FF8MEfSUkykfcj",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l08NFzERdl_Go7tLe9uwJ8z_D-nfh51TU&si=uCK3GcAzl46AJOLS"
+  }
+}
