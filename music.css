@@ -111,7 +111,7 @@ body {
 
 .release {
  height:100%;
- width:max(100px, 12.5vw);
+ width:max(150px, 12.5vw);
 }
 
 .release img {
