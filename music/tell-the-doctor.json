@@ -1,0 +1,31 @@
+{
+  "id": "tell-the-doctor",
+  "title": "Tell the Doctor",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "March 14th, 2025",
+  "releaseLength": "3 minutes, 26 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/tellthedoctor.webp",
+  "lightMain": "#C1C7D9",
+  "darkMain": "#636373",
+  "accent": "#59503F",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Tell the Doctor",
+      "length": "3:26"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/5Z0o7mfxL7uyWhVrUnbaAW?si=lZ_bLd8uQj-FAv2bsxXK1g",
+    "appleMusic": "https://music.apple.com/gb/album/tell-the-doctor-single/1801039123",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_l4gd6QXXGNnKoRAM12zXxKW9SYYgSzUFs&si=f_qjnoVKpUXlD6Cy",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mLXEOqHNJLAGbD4y86mOUbnU5fUFxMiQo&si=Fz5YkmgGlRaePARI"
+  }
+}
