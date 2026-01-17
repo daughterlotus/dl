@@ -1,0 +1,37 @@
+{
+  "id": "i-do-it-all-for-you",
+  "title": "I DO IT ALL FOR YOU",
+  "artist": "Daughter Lotus",
+  "type": "EP",
+  "releaseDate": "August 22nd, 2025",
+  "releaseLength": "4 minutes, 23 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/DOITALLSINGLE.webp",
+  "bgImage": "../images/ihmamBG.png",
+  "lightMain": "#F1EFE0",
+  "darkMain": "#1E2303",
+  "accent": "#AF9A57",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "NICE TO MEET YOU",
+      "length": "1:25"
+    },
+    {
+      "number": 2,
+      "title": "I DO IT ALL FOR YOU",
+      "length": "2:57"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/6cHoHEdPFmhhpEiIQFlqRY?si=otepvNEcQ3uhFprWMlan8A",
+    "appleMusic": "https://music.apple.com/gb/album/i-do-it-all-for-you-single/1833780100",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_lufcR3O_csAHSOL0wIZWNA_8uN7qzEpJg&si=6HssL_kpCLzqp3Zu",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mvQTDZJcYSyTbbyU_9vruqjQstWW7NyEU&si=bggK2yTQHjCpRYtg"
+  }
+}
