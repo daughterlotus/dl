@@ -1,0 +1,31 @@
+{
+  "id": "lighthouse",
+  "title": "Lighthouse",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "February 9th, 2024",
+  "releaseLength": "5 minutes, 49 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/lighthouse.webp",
+  "lightMain": "#A4967B",
+  "darkMain": "#3C2B1B",
+  "accent": "#BF6D65",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Lighthouse",
+      "length": "5:49"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/2MmPJDhQL7m4WzyHzetwcW?si=ASHw_k3VRL2jUiQOm0oiUQ",
+    "appleMusic": "https://music.apple.com/gb/album/lighthouse-single/1730264132",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_nUcI2EdzGPd32iCXU9ncVJoUBMe4RaGO0&si=FtrBKQdLUHtBirSx",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nXW-Ro73RuEwxB_HZQhA27ROpU-IvUuRk&si=Uc6RBpQw2y31bOr8"
+  }
+}
