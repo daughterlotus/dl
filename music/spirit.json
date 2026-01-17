@@ -1,0 +1,31 @@
+{
+  "id": "spirit",
+  "title": "Spirit",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "October 15th, 2024",
+  "releaseLength": "2 minutes, 55 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/spirit.webp",
+  "lightMain": "#DCB1AB",
+  "darkMain": "#4C4042",
+  "accent": "#F2AA6B",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Spirit",
+      "length": "2:55"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/5nF2OCHjQ08RFspSZZcF53?si=h8P8_e5aQkSOLyqn-ywtVA",
+    "appleMusic": "https://music.apple.com/gb/album/spirit-single/1773837985",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_k9frnM-ISmbGpQMmbD7HTWDvGPsSt4Ptc&si=VDmvEilXaHc9_HSp",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mPEXtRQcHXfdqe2CYGym2sFKPAm2oy8II&si=WsS2GznMAxXvLxdb"
+  }
+}
