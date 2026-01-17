@@ -1,0 +1,31 @@
+{
+  "id": "if-it-all-stayed-the-same",
+  "title": "If It All Stayed the Same",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "June 25th, 2024",
+  "releaseLength": "4 minutes, 50 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/ifitallstayedthesame.webp",
+  "lightMain": "#A9AFFA",
+  "darkMain": "#010440",
+  "accent": "#FFFCE7",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "If It All Stayed the Same",
+      "length": "4:50"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/2ALULMSHepnzeqo6XOV87e?si=9_3fdom8RLaR0oMOpuYHtg",
+    "appleMusic": "https://music.apple.com/gb/album/if-it-all-stayed-the-same-single/1753445329",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_mjTcm0FS0fIivpJXBvrBKH5SE9cQwrmNw&si=Qc8rkUgVSiqpveVz",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kBZ39PmKEnCrz2X3-mk6g8RaOHp6MpZOk&si=T8WwhEuh-Ws7M5db"
+  }
+}
