@@ -1,0 +1,36 @@
+{
+  "id": "victimless-crime",
+  "title": "Victimless Crime",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "November 26th, 2023",
+  "releaseLength": "5 minutes, 44 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/victimlesscrime.webp",
+  "lightMain": "#BFBFBF",
+  "darkMain": "#262626",
+  "accent": "#8C8C8C",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Premeditation",
+      "length": "1:24"
+    },
+    {
+      "number": 2,
+      "title": "Victimless Crime",
+      "length": "4:20"
+    }
+  ],
+
+  "credits": "All tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/1Kc44ZnY7v9xSuAuOYeKH4?si=vJYn_Y-8QKCqgbADExGYxQ",
+    "appleMusic": "https://music.apple.com/gb/album/victimless-crime-single/1718459718",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_k9JEn-dnrRHm2EVX130SR8IL8lfDDEQcI&si=Vc6NMXrn1C15DugE",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lzRdqFzBjHS2NtoW6gldDtYcBxyKCipkA&si=gyM5XLWCPlDxKLFn"
+  }
+}
