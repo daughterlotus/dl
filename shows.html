@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Site developed by Brian M. Dyer-->
+<html lang="en">
+ <head>
+  <title>Shows | Daughter Lotus</title>
+  <link rel="canonical" href="https://daughterlotus.com/shows">
+  <link rel="stylesheet" href="shows.css">
+  <link rel="stylesheet" href="nav.css">
+  <meta name="description" content="The official page for information about Daughter Lotus live shows.">
+  <meta name="googlebot" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <meta property="og:url" content="https://daughterlotus.com/shows">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/releases/IHATEMUSIC.webp">
+  <meta property="og:title" content="Shows | Daughter Lotus">
+  <meta property="og:description" content="The official page for information about Daughter Lotus live shows.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="daughterlotus.com">
+  <meta property="twitter:url" content="https://daughterlotus.com/shows">
+  <meta name="twitter:title" content="Shows | Daughter Lotus">
+  <meta name="twitter:description" content="The official page for information about Daughter Lotus live shows.">
+  <meta name="twitter:image" content="images/releases/IHATEMUSIC.webp">
+
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Daughter Lotus" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#f0eedf">
+  <meta name="theme-color" content="#000000">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+
+   $(document).ready(function(){
+    $("#MenuButton").click(function(){
+     $("#screen-mobile-nav").fadeToggle(200);
+    });
+   });
+
+   $(document).ready(function(){
+    $("#InMenuButton").click(function(){
+     $("#screen-mobile-nav").fadeToggle(200);
+    });
+   });
+
+  </script>
+ </head>
+ <body>
+    <div class="desktop-menubar"
+        style="top:0;position:fixed;width:100%;background-color:black;min-height:56px;width:100%;align-items:center;padding:12px;z-index:10;justify-content:space-between;">
+        <a href="./" style="max-width:50%;display:flex;align-items:center;"
+            aria-label="Visit the homepage of daughterlotus.com">
+            <img src="dlHorizontal.webp" width="1000" height="132" alt="The logo for Daughter Lotus."
+                style="height:40px;width:auto;">
+        </a>
+        <div class="pagelinks">
+            <ul style="list-style-type:none;display:flex;justify-content:flex-end;">
+                <li><a href="./about">ABOUT</a></li>
+                <li><a href="./music">MUSIC</a></li>
+                <li><a href="./gallery">GALLERY</a></li>
+                <li style="margin-right:0;"><a style="color:gray;" href="#">SHOWS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mobile-menubar" style="top:0;position:fixed;width:100%;background-color:black;width:100%;align-items:center;padding:10px;z-index:10;justify-content:flex-start;">
+    <a style="display:flex;align-items:center;justify-content:center;margin:8px;border:none;" id="MenuButton">
+     <img src="hamburg.webp" width="24" height="24" style="border-radius:2px;" alt="Menu symbol, three short horizontal lines stacked on top of each other.">
+    </a>
+    <img src="dlHorizontal.webp" alt="The logo for Daughter Lotus." width="1000" height="132" style="width:auto;max-width:75%;height:36px;justify-self:center;margin-left:8px;">
+    <div id="screen-mobile-nav" style="display:none;">
+     <a id="InMenuButton" style="padding:0.5rem;display:flex;border:none;">
+      <img src="hamburg.webp" alt="Close mobile menu icon" aria-label="Click to close the list of pages on daughterlotus.com" width="24" height="24">
+     </a>
+
+     <ul style="list-style-type:none;">
+      <li><a href="./" id="home" aria-label="The home page of Daughter Lotus's website." target="_self">HOME</a></li>
+      <li><a href="./about" id="about" aria-label="The about page of Daughter Lotus's website." target="_self">ABOUT</a></li>
+      <li><a href="./music" aria-label="The music page of Daughter Lotus's website." target="_self">MUSIC</a></li>
+      <li><a href="./gallery" id="gallery" aria-label="The gallery page of Daughter Lotus's website." target="_self">GALLERY</a></li>
+      <li><a href="#" style="color:gray;border:none;" id="shows" aria-label="The shows page of Daughter Lotus's website." target="_self">SHOWS</a></li>
+     </ul>
+    </div>
+   </div>
+   
+ </body>
+</html>

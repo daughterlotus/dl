@@ -15,7 +15,7 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
-@media screen and (max-width:800px) {
+/* @media screen and (max-width:800px) {
  .aboutbg {background-image:url(responsive/7-800w.webp);}
 }
 
@@ -37,6 +37,10 @@ html::-webkit-scrollbar {
 
 @media screen and (min-width:2001px) {
  .aboutbg {background-image:url(images/DL/7.webp);}
+} */
+
+.aboutbg {
+    background-image: url(images/DL/RealmsGeet\ copy.jpg);
 }
 
 * {

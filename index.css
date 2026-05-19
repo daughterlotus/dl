@@ -7,15 +7,15 @@
 }
 
 @media screen and (max-width:600px) {
- #hero {background-image:url(images/indexbg3.png);}
+ #hero {background-image:url(images/dlPhoneBGCrop.jpg);}
 }
 
 @media screen and (min-width:601px) and (max-width:800px) {
- #hero {background-image:url(images/indexbg3.png);}
+ #hero {background-image:url(images/dlPhoneBGCrop.jpg);}
 }
 
 @media screen and (min-width:801px) and (max-width:900px) {
- #hero {background-image:url(images/indexbg3.png);}
+ #hero {background-image:url(images/dlPhoneBGCrop.jpg);}
 }
 
 @media screen and (max-width: 900px) {
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 901px) {
- #hero {background-image:url(images/indexbg3.png);background-size:100% auto;min-height:100vh;max-width:100%;}
+ #hero {background-image:url(images/dlBG.webp);aspect-ratio:1810/900;background-size:100% auto;min-height:100vh;max-width:100%;}
  #mobile-promo {display:none;}
  .hero-mobile {display:none;}
  .hero-desktop {display:flex;}

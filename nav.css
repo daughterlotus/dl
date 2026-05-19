@@ -1,3 +1,11 @@
+*, *:before, *:after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ clear: both;
+ overflow: visible;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 html::-webkit-scrollbar {
   display: none;
@@ -21,7 +29,7 @@ html {
 }
 
 .pagelinks li {
- margin: 0 0.5vw;
+ margin: 0 0.75vw;
  align-self:center;
  padding-bottom: 5px;
 }
@@ -46,7 +54,7 @@ html {
 
 .pagelinks a {
  text-decoration: none;
- color: hsl(170.77deg 51.18% 75.1%);
+ color: hsl(267, 47%, 51%);
  text-align: center;
  font-size: max(22px, 1.14583333vw);
  transition-duration: 0.2s;

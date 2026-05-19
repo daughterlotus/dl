@@ -20,7 +20,6 @@ html::-webkit-scrollbar {
  --ep: hsl(216deg, 70.59%, 7.16%);
  --single: hsl(221.54deg, 62.24%, 3.68%);
 }
-#newRelease {}
 #album {background-image:linear-gradient(to bottom, var(--album), var(--ep));}
 #ep {background-image:linear-gradient(to bottom, var(--ep), var(--single));}
 #single {background-image:linear-gradient(to bottom, var(--single), black);}
