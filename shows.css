@@ -1,3 +1,33 @@
 html {
     background-color: hsl(289, 71%, 14%);
 }
+
+.header {
+ display:flex;
+ justify-content: center;
+ padding: 2rem 0;
+ margin: 1rem;
+ align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+.show {
+    background-image: linear-gradient(to bottom, hsl(267, 47%, 51%), rgba(255, 255, 255, 0.05));
+}
+
+td {
+    border-radius: 10px;
+}
+
+.showList {
+    width: 100%;
+}
+
+.showList li {
+    border-radius: 10px;
+    margin: 0.5rem 0;
+    background-image: linear-gradient(to bottom, hsl(267, 47%, 51%), rgba(255, 255, 255, 0.05));
+}
