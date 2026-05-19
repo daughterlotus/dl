@@ -7,6 +7,7 @@
   "releaseLength": "3 minutes, 55 seconds",
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/standards.webp",
+  "bgImage": "../images/standardsBG.png",
   "lightMain": "#9E6BBF",
   "darkMain": "#342D4C",
   "accent": "#4960A6",
