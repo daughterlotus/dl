@@ -119,9 +119,11 @@ html {
  display:flex;
  justify-content: center;
  align-content:center;
+ position:absolute;
  background-color: black;
  width:100%;
  height: max(120px, 10vh);
+ z-index: 100;
 }
 
 .footer div {
