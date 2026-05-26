@@ -27,7 +27,7 @@
 }
 
 @media screen and (min-width: 901px) {
- #hero {background-image:url(images/dlBG.webp);aspect-ratio:1810/900;background-size:100% auto;min-height:100vh;max-width:100%;}
+ #hero {background-image:url(images/DL_indexBG.webp);aspect-ratio:1810/900;background-size:100% auto;min-height:100vh;max-width:100%;}
  #bg-video {display: flex;}
  #mobile-promo {display:none;}
  .hero-mobile {display:none;}
