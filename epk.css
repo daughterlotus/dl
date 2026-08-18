@@ -54,10 +54,17 @@ body {
         "photo-2 photo-1 text";
     gap: 1rem;
     max-height: 100%;
-    font-size: 0.7vw;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--whte);
 }
 
 #grid-section-1 * {
     width: 100%;
     height: auto;
+}
+
+figure {
+    font-size: 16px;
+    line-height: 1.5;
 }
