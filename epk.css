@@ -15,6 +15,14 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
+@media screen and (max-width:1119px) {
+    #grid-section-1 {flex-wrap: wrap;}
+}
+
+@media screen and (min-width: 1120px) {
+    #grid-section-1 {flex-wrap: nowrap;margin:0 12.5%;}
+}
+
 * {
  margin: 0;
  padding: 0;
@@ -35,4 +43,21 @@ body {
 
 .header h1 {
  font-size: 50px;
+}
+
+#grid-section-1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1.125fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "video video text"
+        "photo-2 photo-1 text";
+    gap: 1rem;
+    max-height: 100%;
+    font-size: 0.7vw;
+}
+
+#grid-section-1 * {
+    width: 100%;
+    height: auto;
 }
