@@ -48,6 +48,23 @@
     });
    });
 
+   /* const btn = document.getElementById('copy-btn');
+   const msg = document.getElementById('copy-email-msg');
+   
+   btn.addEventListener('click', async () => {
+        const email = btn.getAttribute('data-email');
+        try {
+            await navigator.clipboard.writeText(email);
+            btn.textContent = 'Copied!';
+            setTimeout(() => {
+                btn.textContent = 'Copy Email';
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy', err);
+        }
+    }); */
+
+
   </script>
  </head>
  <body>
@@ -55,9 +72,9 @@
         <img src="dlHorizontal.webp" width="1000" height="132" style="max-width:80vw;height:auto;">
     </div>
     <div class="header" style="padding-top:0;">
-        <img src="images/epkHeader.png" width="462" height="218" style="height:auto;">
+        <img src="images/epkHeader.webp" width="462" height="218" style="height:auto;max-width:100%;">
     </div>
-    <section id="grid-section-1">
+    <div id="grid-section-1">
         <figure style="height:auto;display:flex;flex-wrap:wrap;grid-area:video;aspect-ratio:16/9;">
             <iframe style="width:100%;height:auto;aspect-ratio:16/9;" width="560" height="315" src="https://www.youtube.com/embed/tOUHD5ZyiWc?si=oaFeAsuirX5A1ABY"
                 title="YouTube video player" frameborder="0"
@@ -85,16 +102,27 @@
                                    couldn't.<br><br>
 
                                    His most recent EP, <i><a href="./music/?id=music-for-posing" target="_blank" style="text-decoration:none;color:var(--whte);">Music for Posing</a></i>
-                                   debuted at 8th on community platform RateYourMusic's top EPs of 2026.<br><br>
+                                   debuted at 8th on RateYourMusic's top EPs of 2026.<br><br>
 
-                                   <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/music-for-posing/1865673671"></iframe><br><br>
+                                   <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="min-height:450px;width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/music-for-posing/1865673671"></iframe><br><br>
 
                                    Starting in 2025 to promote his latest album release <i><a href="./music/?id=person-house" target="_blank" style="text-decoration:none;color:var(--whte);">Person House</a></i>,
-                                   Emerizy has begun to perform some of his work live at the Boise-local venue Realms Arcade.<br><br>
+                                   Emerizy has begun to perform some of his work live at the Boise-local venue Realms Arcade. You can listen to some of his work below:<br><br>
 
                                    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/tell-the-doctor/1801016243"></iframe>
                                    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/watch/1773853953"></iframe></iframe>
                                    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/what-you-do-for-me/1833725325"></iframe></p>
+    </div>
+    <section id="contact">
+        <div class="header">
+            <img src="images/contactHeader.webp" width="495" height="105" style="height:auto;max-width:100%;">
+        </div>
+        <div class="contact-container" style="margin:1rem;margin-bottom:3rem;display:flex;justify-content:center;text-align:center;flex-wrap:wrap;">
+            <p style="color:white;width:100%;">You can contact Daughter Lotus via the following:<br><br></p>
+            <!-- <button id="copy-btn" data-email="sambonimrz@gmail.com">Copy Email</button>
+            <span id="copy-email-msg"></span> -->
+            <p style="color:white;width:100%;">Email: <b>sambonimrz[at]gmail.com</b></p>
+        </div>
     </section>
     <div class="footer">
         <div>

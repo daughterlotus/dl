@@ -15,12 +15,27 @@ html::-webkit-scrollbar {
     display: none; /* Chrome and the rest */
 }
 
+@media screen and (max-width: 800px) {
+    #grid-section-1 {grid-template-columns: 0.5fr 1.125fr;grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:"video video" "text text" "photo-2 photo-1";}
+}
+
 @media screen and (max-width:1119px) {
-    #grid-section-1 {flex-wrap: wrap;}
+    #grid-section-1 {flex-wrap: wrap;margin:0 2%;}
 }
 
 @media screen and (min-width: 1120px) {
     #grid-section-1 {flex-wrap: nowrap;margin:0 12.5%;}
+}
+
+@media screen and (max-width: 1719px) {
+    #grid-section-1 {grid-template-columns: 0.5fr 1.125fr;grid-template-rows: 1fr 2.5fr 1fr;
+        grid-template-areas:"video video" "text text" "photo-2 photo-1";align-items:center;}
+}
+
+@media screen and (min-width: 1720px) {
+    #grid-section-1 {grid-template-columns: 0.5fr 1.125fr 2fr;grid-template-rows: 1fr 1fr;
+        grid-template-areas:"video video text" "photo-2 photo-1 text";max-height: 100%;}
 }
 
 * {
@@ -47,13 +62,7 @@ body {
 
 #grid-section-1 {
     display: grid;
-    grid-template-columns: 0.5fr 1.125fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "video video text"
-        "photo-2 photo-1 text";
     gap: 1rem;
-    max-height: 100%;
     font-size: 18px;
     line-height: 1.5;
     color: var(--whte);
@@ -62,6 +71,7 @@ body {
 #grid-section-1 * {
     width: 100%;
     height: auto;
+    max-height: 100%;
 }
 
 figure {
