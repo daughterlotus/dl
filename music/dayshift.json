@@ -1,0 +1,31 @@
+{
+  "id": "dayshift",
+  "title": "Tell the Doctor",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "September 28th, 2026",
+  "releaseLength": "2 minutes, 9 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/dayshift.webp",
+  "lightMain": "#C1C7D9",
+  "darkMain": "#636373",
+  "accent": "#59503F",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Dayshift",
+      "length": "2:09"
+    }
+  ],
+
+  "credits": "Track written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/0eQsrC5zaq17Uk2JrYhCFv?si=ok78T3LmTTaHZLSewvON5g",
+    "appleMusic": "https://music.apple.com/us/album/dayshift-single/6816177173",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kna9EsxzcvFamPh0NgW-_o656yj1lkkEE&si=izHkbg0RKokjRS_1",
+    "youtubeMusic": "hhttps://music.youtube.com/playlist?list=OLAK5uy_nYzesKTNiEbHbqCXLx_aMGsCDFPNyONT0&si=NneYuSY_sfb-8k3x"
+  }
+}
