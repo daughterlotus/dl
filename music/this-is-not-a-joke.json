@@ -1,0 +1,36 @@
+{
+  "id": "this-is-not-a-joke",
+  "title": "This is Not a Joke",
+  "artist": "Daughter Lotus",
+  "type": "Single",
+  "releaseDate": "October 15th, 2026",
+  "releaseLength": "3 minutes, 9 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/thisisnotajoke.webp",
+  "lightMain": "#e2dcde",
+  "darkMain": "#2f273f",
+  "accent": "#a71c44",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "This is Funny to You?",
+      "length": "0:36"
+    },
+    {
+      "number": 2,
+      "title": "This is Not a Joke",
+      "length": "2:33"
+    }
+  ],
+
+  "credits": "Tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.",
+
+  "links": {
+    "spotify": "https://open.spotify.com/album/0eQsrC5zaq17Uk2JrYhCFv?si=ok78T3LmTTaHZLSewvON5g",
+    "appleMusic": "https://music.apple.com/us/album/dayshift-single/6816177173",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kna9EsxzcvFamPh0NgW-_o656yj1lkkEE&si=izHkbg0RKokjRS_1",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nYzesKTNiEbHbqCXLx_aMGsCDFPNyONT0&si=NneYuSY_sfb-8k3x"
+  }
+}
