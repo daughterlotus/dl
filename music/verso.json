@@ -1,0 +1,82 @@
+{
+  "id": "verso",
+  "title": "Verso",
+  "artist": "Daughter Lotus",
+  "type": "Album",
+  "releaseDate": "October 28th, 2026",
+  "releaseLength": "39 minutes, 6 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/verso.webp",
+  "lightMain": "#938ab8",
+  "darkMain": "#2f273f",
+  "accent": "#a71c44",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "All Ever Again",
+      "length": "2:02"
+    },
+    {
+      "number": 2,
+      "title": "O Let's Do It",
+      "length": "3:08"
+    },
+    {
+      "number": 3,
+      "title": "Ragweed",
+      "length": "3:54"
+    },
+    {
+      "number": 4,
+      "title": "Chugging Soil",
+      "length": "4:22"
+    },
+    {
+      "number": 5,
+      "title": "I Just Can't Stop!!!!!",
+      "length": "3:15"
+    },
+    {
+      "number": 6,
+      "title": "Retrial (Victimless Crime)",
+      "length": "4:13"
+    },
+    {
+      "number": 7,
+      "title": "baby (feat. 9inekai)",
+      "length": "1:32"
+    },
+    {
+      "number": 8,
+      "title": "Dogville",
+      "length": "2:58"
+    },
+    {
+      "number": 9,
+      "title": "Astoria",
+      "length": "4:00"
+    },
+    {
+      "number": 10,
+      "title": "This is Funny to You?",
+      "length": "0:36"
+    },
+    {
+      "number": 11,
+      "title": "This is Not a Joke",
+      "length": "2:33"
+    },
+    {
+      "number": 12,
+      "title": "Love Feeds",
+      "length": "6:33"
+    }
+  ],
+
+  "credits": "Tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Wit: bass guitar (track 6), mixing consultant (tracks 1-12) <br>9inekai: Rap (track 7)",
+
+  "links": {
+  }
+}

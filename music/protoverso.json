@@ -1,0 +1,47 @@
+{
+  "id": "protoverso",
+  "title": "Protoverso",
+  "artist": "Daughter Lotus",
+  "type": "EP",
+  "releaseDate": "October 20th, 2026",
+  "releaseLength": "13 minutes, 16 seconds",
+  "label": "Stages of Grief Records",
+  "coverArt": "../images/releases/protoverso.webp",
+  "lightMain": "#938ab8",
+  "darkMain": "#2f273f",
+  "accent": "#a71c44",
+  "description": "Null",
+
+  "tracks": [
+    {
+      "number": 1,
+      "title": "Ragweed",
+      "length": "3:54"
+    },
+    {
+      "number": 2,
+      "title": "I Just Can't Stop!!!!!",
+      "length": "3:15"
+    },
+    {
+      "number": 3,
+      "title": "Dogville",
+      "length": "2:58"
+    },
+    {
+      "number": 4,
+      "title": "This is Funny to You?",
+      "length": "0:36"
+    },
+    {
+      "number": 5,
+      "title": "This is Not a Joke",
+      "length": "2:33"
+    }
+  ],
+
+  "credits": "Tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Wit: mixing consultant (tracks 1-5)",
+
+  "links": {
+  }
+}
