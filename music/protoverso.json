@@ -5,7 +5,7 @@
   "type": "EP",
   "releaseDate": "October 20th, 2026",
   "releaseLength": "13 minutes, 16 seconds",
-  "label": "Stages of Grief Records",
+  "label": "05DYNSTY",
   "coverArt": "../images/releases/protoverso.webp",
   "lightMain": "#938ab8",
   "darkMain": "#2f273f",
@@ -40,8 +40,12 @@
     }
   ],
 
-  "credits": "Tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Wit: mixing consultant (tracks 1-5)",
+  "credits": "Tracks written, performed, recorded, produced, mixed, and mastered by Daughter Lotus.<br><br>Mason Witt: mixing consultant (tracks 1-5)",
 
   "links": {
+    "spotify": "https://open.spotify.com/album/4gHowgvm3LkItbCRsS5BnO?si=LsDrsEkgQTuEyyDnpUJqxQ",
+    "appleMusic": "https://music.apple.com/us/album/protoverso-ep/6823683804",
+    "youtube": "https://youtube.com/playlist?list=OLAK5uy_kKXdYZNOicpnGNxbqTElYX4eK-N2BBAoI&si=kG1Tl7DgmtCgMFAg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m7V9McwcELbWyUjHzxNHi9DV150RKOBvg&si=waLQeGDuK-sYVhLk"
   }
 }
