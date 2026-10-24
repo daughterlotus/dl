@@ -107,6 +107,7 @@
       document.querySelector(".release-cover").src = data.coverArt;
       document.querySelector(".runtime").textContent = data.releaseLength;
       document.querySelector(".credits").innerHTML = data.credits;
+      document.querySelector(".label").innerHTML = data.label;
       if (!data.bgImage) {
        document.querySelector(".headerText").style.backgroundAttachment = "scroll";
        document.querySelector(".headerText").style.backgroundSize = "contain";
@@ -238,7 +239,7 @@
    <div style="width:100%;">
     <h2 style="margin-bottom:1rem;">Details:</h2>
     <p style="color:var(--whte);">Total Runtime: <span class="runtime"></span>.<br><br>
-       <span class="credits">.</span></p>
+       <span class="credits">.</span><br><br><span class="label"></p>
    </div>
   </div>
   </div>
