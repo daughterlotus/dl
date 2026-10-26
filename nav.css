@@ -48,6 +48,10 @@ html {
  .mobile-menubar {display:none;}
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 .mobile-menubar #logo {
  aspect-ratio: 1000/132;
 }
