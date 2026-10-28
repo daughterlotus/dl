@@ -7,6 +7,7 @@
   "releaseLength": "2 minutes, 9 seconds",
   "label": "Stages of Grief Records",
   "coverArt": "../images/releases/dayshift.webp",
+  "bgImage": "../images/DLwithVerso.png",
   "lightMain": "#e7e7e7",
   "darkMain": "#434343",
   "accent": "#59503F",
